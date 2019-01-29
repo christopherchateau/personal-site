@@ -30,13 +30,21 @@ class App extends Component {
           </div>
         </section>
         <section className="me-section">
-        <div className="headshot">
-          <article className="text-area">
-          <h4>hi,<br />i'm chris, nice to meet you.</h4>
-          </article>
-        </div>
-        <div className="spotify"></div>
-        <div className="contact"></div>
+          <div className="headshot">
+            <article className="text-area">
+              <h4 className="me-text">
+                <span className="hello-text">hello,</span>
+                <br />
+                <br />
+                i'm a denver based front-end developer with an obsession for
+                coding and an addiction to learning. i rely on a strong work
+                ethic coupled with a passion for collaborating to create
+                powerful, responsive websites.
+              </h4>
+            </article>
+          </div>
+          <div className="spotify" />
+          <div className="contact" />
           {/* <img className="headshot" src={headshot} /> */}
         </section>
       </div>
