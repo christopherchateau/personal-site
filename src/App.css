@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo");
 @import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
+
 
 .App {
   box-sizing: border-box;
@@ -59,6 +61,7 @@
 
 .proj-3 {
   background: yellow;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
 .proj-4 {
