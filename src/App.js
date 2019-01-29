@@ -11,7 +11,16 @@ class App extends Component {
           <br />
           chateau
         </section>
-        <section className="proj-section" />
+        <section className="proj-section">
+          <div className="proj-wrapper">
+            <div className="proj-1 proj">1</div>
+            <div className="proj-2 proj">2</div>
+            <div className="proj-3 proj">3</div>
+            <div className="proj-4 proj">4</div>
+            <div className="proj-5 proj">5</div>
+            <div className="proj-6 proj">6</div>
+          </div>
+        </section>
         <section className="me-section">
           <img className="headshot" src={headshot} />
         </section>

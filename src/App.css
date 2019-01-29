@@ -6,6 +6,7 @@
 
 .name-section {
   align-items: flex-end;
+  background: rgb(182, 182, 182);
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12rem;
@@ -17,8 +18,41 @@
 }
 
 .proj-section {
+  border: 2px solid black;
+}
+
+.proj-wrapper {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+    "proj-1 proj-2"
+    "proj-3 proj-4"
+    "proj-5 proj-6";
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 10vw;
+}
+
+.proj {
+  height: 16rem;
+}
+
+.proj-1 {
+  background: black;
+}
+.proj-2 {
+  background: red;
+}
+.proj-3 {
+  background: yellow;
+}
+.proj-4 {
+  background: blue;
+}
+.proj-5 {
+  background: orange;
+}
+.proj-6 {
   background: grey;
-  height: 100vh;
 }
 
 .me-section {
@@ -26,6 +60,6 @@
   height: 100vh;
 }
 
-.headshot{
+.headshot {
   height: 100vh;
 }
