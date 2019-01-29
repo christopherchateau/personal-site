@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import headshot from "./images/headshot.jpg";
 import "./App.css";
 
 class App extends Component {
@@ -10,10 +11,10 @@ class App extends Component {
           <br />
           chateau
         </section>
-        <section className="proj-section">
-          </section>
-          <section className="me-section">
-          </section>
+        <section className="proj-section" />
+        <section className="me-section">
+          <img className="headshot" src={headshot} />
+        </section>
       </div>
     );
   }
