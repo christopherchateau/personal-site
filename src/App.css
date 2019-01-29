@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo");
 @import url("https://fonts.googleapis.com/css?family=Anton");
 @import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 .App {
   box-sizing: border-box;
@@ -90,18 +91,24 @@
   grid-template-areas:
     "headshot spotify"
     "headshot contact";
+  grid-auto-columns: 1fr 1fr;
   height: 100vh;
 }
 
 .headshot {
-  border: 2px solid red;
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  grid-area: headshot;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("./images/headshotBW.jpg") center left no-repeat;
   background-size: auto 100%;
 }
+
+.text-area {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
 .spotify {
-  border: 2px solid blue;
 }
 
 .contact {
