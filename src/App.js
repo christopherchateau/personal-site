@@ -30,7 +30,11 @@ class App extends Component {
           </div>
         </section>
         <section className="me-section">
-        <div className="headshot"></div>
+        <div className="headshot">
+          <article className="text-area">
+          <h4>hi,<br />i'm chris, nice to meet you.</h4>
+          </article>
+        </div>
         <div className="spotify"></div>
         <div className="contact"></div>
           {/* <img className="headshot" src={headshot} /> */}
