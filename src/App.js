@@ -13,7 +13,8 @@ class App extends Component {
         </section>
         <section className="proj-section">
           <div className="proj-wrapper">
-            <div className="proj-1 proj">1</div>
+            <div className="proj-1 proj">
+            </div>
             <div className="proj-2 proj">2</div>
             <div className="proj-3 proj">3</div>
             <div className="proj-4 proj">4</div>
