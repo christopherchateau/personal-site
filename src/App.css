@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Anton");
 @import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
 
-
 .App {
   box-sizing: border-box;
   margin: 0;
@@ -60,12 +59,21 @@
 }
 
 .proj-3 {
-  background: yellow;
+  background: linear-gradient(hsla(0, 0%, 0%, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./images/pp.png") center no-repeat;
   font-family: "Gloria Hallelujah", cursive;
 }
 
 .proj-4 {
-  background: blue;
+  background: #e8e8e8;
+}
+
+.coen-collection-title {
+  color: white;
+  background: url("./images/wood.jpg");
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .proj-5 {
