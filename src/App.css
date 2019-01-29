@@ -84,16 +84,32 @@
   background: grey;
 }
 
-.proj:hover {
-  cursor: pointer;
-  opacity: 0.6;
-  transition: all 0.4s ease-in-out;
-}
 .me-section {
   background: white;
+  display: grid;
+  grid-template-areas:
+    "headshot spotify"
+    "headshot contact";
   height: 100vh;
 }
 
 .headshot {
-  height: 50vw;
+  border: 2px solid red;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./images/headshotBW.jpg") center left no-repeat;
+  background-size: auto 100%;
+}
+.spotify {
+  border: 2px solid blue;
+}
+
+.contact {
+  border: 2px solid yellow;
+}
+
+.proj:hover {
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all 0.4s ease-in-out;
 }
