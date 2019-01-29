@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import headshot from "./images/headshotBW.jpg";
+// import headshot from "./images/headshotBW.jpg";
 import "./App.css";
 
 class App extends Component {
@@ -30,7 +30,10 @@ class App extends Component {
           </div>
         </section>
         <section className="me-section">
-          <img className="headshot" src={headshot} />
+        <div className="headshot"></div>
+        <div className="spotify"></div>
+        <div className="contact"></div>
+          {/* <img className="headshot" src={headshot} /> */}
         </section>
       </div>
     );
