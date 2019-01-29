@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
 .App {
   box-sizing: border-box;
   margin: 0;
@@ -32,42 +35,49 @@
 
 .proj {
   align-items: center;
+  color: white;
   display: flex;
-  font-size: 3rem;
+  font-size: 4rem;
   height: 16rem;
   justify-content: center;
-  opacity: 0.7;
-}
-
-.proj:hover {
-  opacity: 1;
-  transition: all 0.4s ease-in-out;
 }
 
 .proj-1 {
-  background: url("./images/summit-register.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./images/summit-register.jpg") center no-repeat;
 }
 
 .summit-register-title {
-  color: white;
+  font-family: "Archivo", sans-serif;
 }
 
 .proj-2 {
-  background: red;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./images/marvelous.jpg") center no-repeat;
+  font-family: "Anton", sans-serif;
 }
+
 .proj-3 {
   background: yellow;
 }
+
 .proj-4 {
   background: blue;
 }
+
 .proj-5 {
   background: orange;
 }
+
 .proj-6 {
   background: grey;
 }
 
+.proj:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.4s ease-in-out;
+}
 .me-section {
   background: white;
   height: 100vh;

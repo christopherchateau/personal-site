@@ -16,7 +16,7 @@ class App extends Component {
             <div className="proj-1 proj">
               <h4 className="summit-register-title">summit register</h4>
             </div>
-            <div className="proj-2 proj">2</div>
+            <div className="proj-2 proj">MARVELOUS</div>
             <div className="proj-3 proj">3</div>
             <div className="proj-4 proj">4</div>
             <div className="proj-5 proj">5</div>
