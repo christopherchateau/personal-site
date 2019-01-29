@@ -5,14 +5,22 @@
 }
 
 .name-section {
+  align-items: flex-end;
+  display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12rem;
   font-weight: 500;
-  text-align: right;
   height: 100vh;
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .proj-section {
   background: grey;
+  height: 100vh;
+}
+
+.me-section {
+  background: white;
   height: 100vh;
 }

@@ -12,6 +12,8 @@ class App extends Component {
         </section>
         <section className="proj-section">
           </section>
+          <section className="me-section">
+          </section>
       </div>
     );
   }
