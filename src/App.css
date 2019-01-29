@@ -6,19 +6,17 @@
 
 .name-section {
   align-items: flex-end;
-  background: rgb(182, 182, 182);
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12rem;
   font-weight: 500;
   height: 100vh;
   justify-content: flex-end;
-  padding: 10px;
+  padding-right: 30px;
   text-align: right;
 }
 
 .proj-section {
-  border: 2px solid black;
 }
 
 .proj-wrapper {
@@ -33,12 +31,27 @@
 }
 
 .proj {
+  align-items: center;
+  display: flex;
+  font-size: 3rem;
   height: 16rem;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+.proj:hover {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
 }
 
 .proj-1 {
   background: url("./images/summit-register.jpg");
 }
+
+.summit-register-title {
+  color: white;
+}
+
 .proj-2 {
   background: red;
 }
@@ -61,5 +74,5 @@
 }
 
 .headshot {
-  height: 100vh;
+  height: 50vw;
 }

@@ -14,6 +14,7 @@ class App extends Component {
         <section className="proj-section">
           <div className="proj-wrapper">
             <div className="proj-1 proj">
+              <h4 className="summit-register-title">summit register</h4>
             </div>
             <div className="proj-2 proj">2</div>
             <div className="proj-3 proj">3</div>
