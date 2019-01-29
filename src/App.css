@@ -12,6 +12,7 @@
   font-weight: 500;
   height: 100vh;
   justify-content: flex-end;
+  padding: 10px;
   text-align: right;
 }
 
@@ -22,5 +23,9 @@
 
 .me-section {
   background: white;
+  height: 100vh;
+}
+
+.headshot{
   height: 100vh;
 }
