@@ -141,6 +141,7 @@
 }
 
 .contact {
+  background: red;
 }
 
 .proj:hover {
@@ -152,11 +153,11 @@
 @media screen and (max-width: 1200px) {
   .proj-wrapper {
     grid-template-areas:
-      "proj-1" 
+      "proj-1"
       "proj-2"
-      "proj-3" 
+      "proj-3"
       "proj-4"
-      "proj-5" 
+      "proj-5"
       "proj-6";
     grid-template-columns: 1fr;
   }
@@ -164,6 +165,27 @@
 
 @media screen and (max-width: 950px) {
   .name-section {
-    
+    font-size: 8rem;
+  }
+
+  .me-section {
+    grid-template-areas:
+      "headshot"
+      "headshot"
+      "spotify"
+      "contact";
+    grid-template-columns: 1fr;
+  }
+
+  .headshot {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+      url("./images/headshotBW.jpg") center no-repeat;
+    background-size: 100% auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .name-section {
+    font-size: 5rem;
   }
 }
