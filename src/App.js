@@ -12,20 +12,36 @@ class App extends Component {
         </section>
         <section className="proj-section">
           <div className="proj-wrapper">
-            <div className="proj-1 proj">
+            <a
+              href="https://github.com/christopherchateau/summit-register-FE"
+              className="proj-1 proj"
+            >
               <h4 className="summit-register-title">summit register</h4>
-            </div>
-            <div className="proj-2 proj">
+            </a>
+            <a
+              href="https://github.com/christopherchateau/marvelous"
+              className="proj-2 proj"
+            >
               <h4>MARVELOUS</h4>
-            </div>
-            <div className="proj-3 proj">
+            </a>
+            <a
+              href="https://github.com/christopherchateau/palette-picker"
+              className="proj-3 proj"
+            >
               <h4>palette picker</h4>
-            </div>
-            <div className="proj-4 proj">
+            </a>
+            <a href="www.google.com" className="proj-4 proj">
               <h4 className="coen-collection-title">coenCollection</h4>
-            </div>
-            <div className="proj-5 proj">HEADCOUNT</div>
-            <div className="proj-6 proj">6</div>
+            </a>
+            <a
+              href="https://github.com/christopherchateau/headcount2.0"
+              className="proj-5 proj"
+            >
+              HEADCOUNT
+            </a>
+            <a href="www.google.com" className="proj-6 proj">
+              SPACE BUNNY
+            </a>
           </div>
         </section>
         <section className="me-section">
