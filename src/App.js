@@ -68,7 +68,6 @@ class App extends Component {
           </div>
           <div className="spotify" />
           <div className="contact" />
-          {/* <img className="headshot" src={headshot} /> */}
         </section>
       </div>
     );
