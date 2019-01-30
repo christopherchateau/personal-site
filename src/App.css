@@ -138,11 +138,21 @@
 }
 
 .spotify {
+  align-items: center;
   background: silver;
+  color: white;
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
 }
 
 .contact {
+  align-items: center;
   background: red;
+  color: white;
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
 }
 
 .proj:hover {
@@ -167,6 +177,10 @@
 @media screen and (max-width: 950px) {
   .name-section {
     font-size: 8rem;
+  }
+
+  .contact {
+    font-size: 1.4rem;
   }
 }
 
@@ -225,7 +239,7 @@
   }
 
   .proj-6 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .text-area {

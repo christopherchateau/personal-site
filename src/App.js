@@ -66,8 +66,8 @@ class App extends Component {
               </h4>
             </article>
           </div>
-          <div className="spotify" />
-          <div className="contact" />
+          <div className="spotify">coming soon...</div>
+          <div className="contact">christopherchateau@gmail.com</div>
         </section>
       </div>
     );
