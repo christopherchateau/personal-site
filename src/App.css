@@ -114,8 +114,8 @@
   align-items: flex-end;
   display: flex;
   grid-area: headshot;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
-    url("./images/headshotBW.jpg") center left no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("./images/headshotBW.jpg") no-repeat;
   background-size: auto 100%;
 }
 
@@ -129,6 +129,7 @@
 }
 
 .me-text {
+  margin: 0;
   vertical-align: text-bottom;
 }
 
@@ -167,7 +168,9 @@
   .name-section {
     font-size: 8rem;
   }
+}
 
+@media screen and (max-width: 850px) {
   .me-section {
     grid-template-areas:
       "headshot"
@@ -184,8 +187,34 @@
   }
 }
 
+@media screen and (max-width: 687px) {
+  .proj {
+    font-size: 3rem;
+  }
+
+  .proj-6 {
+    font-size: 2rem;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .name-section {
     font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .hello-text {
+    font-size: 1.5rem;
+  }
+
+  .text-area {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .headshot {
+    background-size: auto 100%;
   }
 }
