@@ -19,11 +19,12 @@
   font-weight: 500;
   height: 100vh;
   justify-content: flex-end;
-  padding-right: 30px;
+  padding: 0 10vw;
   text-align: right;
 }
 
 .proj-section {
+  width: 100vw;
 }
 
 .proj-wrapper {
@@ -146,4 +147,23 @@
   cursor: pointer;
   opacity: 0.4;
   transition: all 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+  .proj-wrapper {
+    grid-template-areas:
+      "proj-1" 
+      "proj-2"
+      "proj-3" 
+      "proj-4"
+      "proj-5" 
+      "proj-6";
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .name-section {
+    
+  }
 }
