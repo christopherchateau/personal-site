@@ -115,7 +115,7 @@
   display: flex;
   grid-area: headshot;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url("./images/headshotBW.jpg") no-repeat;
+    url("./images/headshotBW.jpg") center no-repeat;
   background-size: auto 100%;
 }
 
@@ -209,12 +209,32 @@
   }
 
   .text-area {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
 @media screen and (max-width: 491px) {
   .headshot {
     background-size: auto 100%;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .proj {
+    font-size: 2rem;
+  }
+
+  .proj-6 {
+    font-size: 1.5rem;
+  }
+
+  .text-area {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .name-section {
+    font-size: 3rem;
   }
 }
