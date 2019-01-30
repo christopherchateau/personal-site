@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import headshot from "./images/headshotBW.jpg";
 import "./App.css";
 
 class App extends Component {
@@ -25,7 +24,7 @@ class App extends Component {
             <div className="proj-4 proj">
               <h4 className="coen-collection-title">coenCollection</h4>
             </div>
-            <div className="proj-5 proj">5</div>
+            <div className="proj-5 proj">HEADCOUNT</div>
             <div className="proj-6 proj">6</div>
           </div>
         </section>
