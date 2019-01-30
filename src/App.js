@@ -59,8 +59,10 @@ class App extends Component {
                 <br />
                 i'm a denver based front-end developer with an obsession for
                 coding and an addiction to learning. i rely on a strong work
-                ethic coupled with a passion for collaborating to create
+                ethic coupled with a passion for collaboration to create
                 powerful, responsive websites.
+                <br />
+                <span className="hello-text">-chris</span>
               </h4>
             </article>
           </div>
