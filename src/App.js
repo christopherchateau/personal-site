@@ -30,7 +30,10 @@ class App extends Component {
             >
               <h4>palette picker</h4>
             </a>
-            <a href="www.google.com" className="proj-4 proj">
+            <a
+              href="https://github.com/christopherchateau/movie-tracker"
+              className="proj-4 proj"
+            >
               <h4 className="coen-collection-title">coenCollection</h4>
             </a>
             <a
@@ -39,7 +42,10 @@ class App extends Component {
             >
               HEADCOUNT
             </a>
-            <a href="www.google.com" className="proj-6 proj">
+            <a
+              href="https://github.com/christopherchateau/space-bunny"
+              className="proj-6 proj"
+            >
               SPACE BUNNY
             </a>
           </div>

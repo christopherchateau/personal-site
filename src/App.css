@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 
 .App {
   box-sizing: border-box;
@@ -59,6 +59,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./images/marvelous.jpg") center no-repeat;
   font-family: "Anton", sans-serif;
+  text-decoration: none;
 }
 
 .proj-3 {
@@ -69,6 +70,7 @@
 
 .proj-4 {
   background: #e8e8e8;
+  text-decoration: none;
 }
 
 .coen-collection-title {
@@ -83,12 +85,13 @@
   background: url("./images/yellow-paper.jpg");
   color: black;
   font-family: "Permanent Marker", cursive;
+  text-decoration: none;
 }
 
 .proj-6 {
   background: url("./images/space-bunny.gif") center no-repeat black;
   color: #25e200;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 3rem;
   text-decoration: none;
   text-shadow: 4px 4px red;
