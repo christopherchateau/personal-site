@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo");
 @import url("https://fonts.googleapis.com/css?family=Anton");
 @import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 
 .App {
   box-sizing: border-box;
@@ -78,7 +79,9 @@
 }
 
 .proj-5 {
-  background: orange;
+  background: url("./images/yellow-paper.jpg");
+  color: black;
+  font-family: "Permanent Marker", cursive;
 }
 
 .proj-6 {
@@ -96,6 +99,8 @@
 }
 
 .headshot {
+  align-items: flex-end;
+  display: flex;
   grid-area: headshot;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("./images/headshotBW.jpg") center left no-repeat;
@@ -104,15 +109,15 @@
 
 .text-area {
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 2;
-  margin-top: 50%;
   padding: 40px;
   text-align: end;
 }
 
 .me-text {
+  vertical-align: text-bottom;
 }
 
 .hello-text {
