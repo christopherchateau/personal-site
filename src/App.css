@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 .App {
   box-sizing: border-box;
@@ -85,7 +86,12 @@
 }
 
 .proj-6 {
-  background: grey;
+  background: url("./images/space-bunny.gif") center no-repeat black;
+  color: #25e200;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  text-decoration: none;
+  text-shadow: 4px 4px red;
 }
 
 .me-section {
