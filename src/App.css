@@ -67,6 +67,7 @@
   background: linear-gradient(hsla(0, 0%, 0%, 0.4), rgba(0, 0, 0, 0.4)),
     url("./images/pp.png") center no-repeat;
   font-family: "Gloria Hallelujah", cursive;
+  text-decoration: none;
 }
 
 .proj-4 {
@@ -135,10 +136,10 @@
 }
 
 .spotify {
+  background: silver;
 }
 
 .contact {
-  border: 2px solid yellow;
 }
 
 .proj:hover {
