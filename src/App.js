@@ -22,6 +22,12 @@ class App extends Component {
             >
               <i class="fab fa-linkedin-in" />
             </a>
+            <a
+              href="https://www.codewars.com/users/christopherchateau"
+              target="_blank"
+            >
+              <i class="fas fa-code" />
+            </a>
           </nav>
           <div className="name">
             chris
