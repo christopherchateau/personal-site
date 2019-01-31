@@ -10,14 +10,22 @@
   margin: 0;
   padding: 0;
 }
-
 .name-section {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  height: 100vh;
+}
+
+.links {
+  margin: 0;
+}
+
+.name {
   align-items: flex-end;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12rem;
   font-weight: 500;
-  height: 100vh;
   justify-content: flex-end;
   padding: 0 10vw;
   text-align: right;
