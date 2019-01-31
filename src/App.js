@@ -6,9 +6,12 @@ class App extends Component {
     return (
       <div className="App">
         <section className="name-section">
-          chris
-          <br />
-          chateau
+          <ul className="links">asdf</ul>
+          <div className="name">
+            chris
+            <br />
+            chateau
+          </div>
         </section>
         <section className="proj-section">
           <div className="proj-wrapper">
