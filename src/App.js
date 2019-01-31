@@ -11,12 +11,6 @@ class App extends Component {
               <i class="fab fa-github" />
             </a>
             <a
-              href="https://open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA"
-              target="_blank"
-            >
-              <i class="fab fa-spotify" />
-            </a>
-            <a
               href="https://linkedin.com/in/christopherchateau/"
               target="_blank"
             >
@@ -27,6 +21,12 @@ class App extends Component {
               target="_blank"
             >
               <i class="fas fa-code" />
+            </a>
+            <a
+              href="https://open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA"
+              target="_blank"
+            >
+              <i class="fab fa-spotify" />
             </a>
           </nav>
           <div className="name">
