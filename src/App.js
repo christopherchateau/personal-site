@@ -7,31 +7,20 @@ class App extends Component {
       <div className="App">
         <section className="name-section">
           <nav className="links">
-            <a href="https://medium.com/@30ozsteak" target="_blank">
-              <li>
-                <i class="fab fa-medium-m" />
-              </li>
-            </a>
-            <a href="https://github.com/30ozSteak" target="_blank">
-              <li>
-                <i class="fab fa-github" />
-              </li>
+            <a href="https://github.com/christopherchateau" target="_blank">
+              <i class="fab fa-github" />
             </a>
             <a
-              href="http://open.spotify.com/user/WATERMELONTRAINWHISTLE"
+              href="https://open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA"
               target="_blank"
             >
-              <li>
-                <i class="fab fa-spotify" />
-              </li>
+              <i class="fab fa-spotify" />
             </a>
             <a
-              href="https://www.linkedin.com/in/nick-dambrosio-73b586165/"
+              href="https://linkedin.com/in/christopherchateau/"
               target="_blank"
             >
-              <li>
-                <i class="fab fa-linkedin-in" />
-              </li>
+              <i class="fab fa-linkedin-in" />
             </a>
           </nav>
           <div className="name">
