@@ -6,7 +6,34 @@ class App extends Component {
     return (
       <div className="App">
         <section className="name-section">
-          <ul className="links">asdf</ul>
+          <nav className="links">
+            <a href="https://medium.com/@30ozsteak" target="_blank">
+              <li>
+                <i class="fab fa-medium-m" />
+              </li>
+            </a>
+            <a href="https://github.com/30ozSteak" target="_blank">
+              <li>
+                <i class="fab fa-github" />
+              </li>
+            </a>
+            <a
+              href="http://open.spotify.com/user/WATERMELONTRAINWHISTLE"
+              target="_blank"
+            >
+              <li>
+                <i class="fab fa-spotify" />
+              </li>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nick-dambrosio-73b586165/"
+              target="_blank"
+            >
+              <li>
+                <i class="fab fa-linkedin-in" />
+              </li>
+            </a>
+          </nav>
           <div className="name">
             chris
             <br />
