@@ -40,36 +40,42 @@ class App extends Component {
             <a
               href="https://github.com/christopherchateau/summit-register-FE"
               className="proj-summit-register proj"
+              target="_blank"
             >
               <h4 className="proj-summit-register-title">summit register</h4>
             </a>
             <a
               href="https://github.com/christopherchateau/marvelous"
               className="proj-marvelous proj"
+              target="_blank"
             >
               <h4>MARVELOUS</h4>
             </a>
             <a
               href="https://github.com/christopherchateau/palette-picker"
               className="proj-pp proj"
+              target="_blank"
             >
               <h4>palette picker</h4>
             </a>
             <a
               href="https://github.com/christopherchateau/movie-tracker"
               className="proj-cc proj"
+              target="_blank"
             >
               <h4 className="cc-title">coenCollection</h4>
             </a>
             <a
               href="https://github.com/christopherchateau/headcount2.0"
               className="proj-headcount proj"
+              target="_blank"
             >
               HEADCOUNT
             </a>
             <a
               href="https://github.com/christopherchateau/space-bunny"
               className="proj-space-bunny proj"
+              target="_blank"
             >
               SPACE BUNNY
             </a>
@@ -91,10 +97,45 @@ class App extends Component {
               </h4>
             </article>
           </div>
-          <div className="spotify">coming soon...</div>
+          <div className="spotify">
+            <header className="spotify-header">currently in rotation</header>
+            <section className="spotify-playlists">
+              <a
+                href="https://open.spotify.com/user/spotify/playlist/37i9dQZF1DX6ziVCJnEm59"
+                class="playlist playlist-1"
+                target="_blank"
+              />
+              <a
+                href="https://open.spotify.com/user/mazza333/playlist/7iumOW8FWRfJSL66wum4in"
+                class="playlist playlist-2"
+                target="_blank"
+              />
+              <a
+                href="https://open.spotify.com/show/5GcTIDkgnB9wP6CmUyOSqa"
+                class="playlist playlist-3"
+                target="_blank"
+              />
+              <a
+                href="https://open.spotify.com/user/spotify/playlist/37i9dQZF1DX8Uebhn9wzrS"
+                class="playlist playlist-4"
+                target="_blank"
+              />
+              <a
+                href="https://open.spotify.com/user/ambition-music/playlist/6o1BCSdwXiFX3f3lMfkbED"
+                class="playlist playlist-5"
+                target="_blank"
+              />
+              <a
+                href="https://open.spotify.com/track/3rq19UOvkdiMKVVFJ4txmf"
+                target="_blank"
+                class="playlist playlist-6"
+              />
+            </section>
+          </div>
           <div className="contact">
             <h4 className="e-mail">
-              <i class="fas fa-envelope" />christopherchateau@gmail.com
+              <i class="fas fa-envelope" />
+              christopherchateau@gmail.com
             </h4>
           </div>
         </section>
