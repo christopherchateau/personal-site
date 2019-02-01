@@ -172,10 +172,21 @@
 }
 
 .spotify {
+  align-items: center;
   background: silver;
   color: white;
-  display: grid;
+  display: flex;
   font-size: 2rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.spotify-header {
+  background: red;
+}
+
+.spotify-playlists {
+  background: blue;
 }
 
 .contact {
