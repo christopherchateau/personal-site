@@ -92,7 +92,11 @@ class App extends Component {
             </article>
           </div>
           <div className="spotify">coming soon...</div>
-          <div className="contact">christopherchateau@gmail.com</div>
+          <div className="contact">
+            <h4 className="e-mail">
+              <i class="fas fa-envelope" />christopherchateau@gmail.com
+            </h4>
+          </div>
         </section>
       </div>
     );
