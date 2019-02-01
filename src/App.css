@@ -74,6 +74,9 @@
   transition: all 0.4s ease-in-out;
 }
 
+.proj:hover {
+  transform: scale(1.05)
+}
 .proj-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./images/summit-register.jpg") center no-repeat;
