@@ -75,37 +75,41 @@
 }
 
 .proj:hover {
-  transform: scale(1.05)
+  cursor: pointer;
+  opacity: 0.9;
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.06);
 }
-.proj-1 {
+
+.proj-summit-register {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./images/summit-register.jpg") center no-repeat;
 }
 
-.summit-register-title {
+.proj-summit-register-title {
   font-family: "Archivo", sans-serif;
 }
 
-.proj-2 {
+.proj-marvelous {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./images/marvelous.jpg") center no-repeat;
   font-family: "Anton", sans-serif;
   text-decoration: none;
 }
 
-.proj-3 {
+.proj-pp {
   background: linear-gradient(hsla(0, 0%, 0%, 0.4), rgba(0, 0, 0, 0.4)),
     url("./images/pp.png") center no-repeat;
   font-family: "Gloria Hallelujah", cursive;
   text-decoration: none;
 }
 
-.proj-4 {
+.proj-cc {
   background: #e8e8e8;
   text-decoration: none;
 }
 
-.coen-collection-title {
+.cc-title {
   color: white;
   background: url("./images/wood.jpg");
   font-weight: bold;
@@ -113,14 +117,14 @@
   -webkit-text-fill-color: transparent;
 }
 
-.proj-5 {
+.proj-headcount {
   background: url("./images/yellow-paper.jpg");
   color: black;
   font-family: "Permanent Marker", cursive;
   text-decoration: none;
 }
 
-.proj-6 {
+.proj-space-bunny {
   background: url("./images/space-bunny.gif") center no-repeat black;
   color: #25e200;
   font-family: "Press Start 2P", cursive;
@@ -182,12 +186,6 @@
   display: flex;
   font-size: 2rem;
   justify-content: center;
-}
-
-.proj:hover {
-  cursor: pointer;
-  opacity: 0.4;
-  transition: all 0.4s ease-in-out;
 }
 
 @media screen and (max-width: 1200px) {
