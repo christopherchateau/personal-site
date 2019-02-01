@@ -39,37 +39,37 @@ class App extends Component {
           <div className="proj-wrapper">
             <a
               href="https://github.com/christopherchateau/summit-register-FE"
-              className="proj-1 proj"
+              className="proj-summit-register proj"
             >
-              <h4 className="summit-register-title">summit register</h4>
+              <h4 className="proj-summit-register-title">summit register</h4>
             </a>
             <a
               href="https://github.com/christopherchateau/marvelous"
-              className="proj-2 proj"
+              className="proj-marvelous proj"
             >
               <h4>MARVELOUS</h4>
             </a>
             <a
               href="https://github.com/christopherchateau/palette-picker"
-              className="proj-3 proj"
+              className="proj-pp proj"
             >
               <h4>palette picker</h4>
             </a>
             <a
               href="https://github.com/christopherchateau/movie-tracker"
-              className="proj-4 proj"
+              className="proj-cc proj"
             >
-              <h4 className="coen-collection-title">coenCollection</h4>
+              <h4 className="cc-title">coenCollection</h4>
             </a>
             <a
               href="https://github.com/christopherchateau/headcount2.0"
-              className="proj-5 proj"
+              className="proj-headcount proj"
             >
               HEADCOUNT
             </a>
             <a
               href="https://github.com/christopherchateau/space-bunny"
-              className="proj-6 proj"
+              className="proj-space-bunny proj"
             >
               SPACE BUNNY
             </a>
