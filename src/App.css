@@ -181,11 +181,20 @@
 
 .contact {
   align-items: center;
-  background: red;
-  color: white;
+  color: silver;
   display: flex;
   font-size: 2rem;
   justify-content: center;
+}
+
+.e-mail {
+  border: 2px solid silver;
+  padding: 5px 10px;
+}
+
+.fa-envelope {
+  background: white;
+  color: silver;
 }
 
 @media screen and (max-width: 1200px) {
