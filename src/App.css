@@ -173,7 +173,7 @@
 
 .spotify {
   align-items: center;
-  /* background: silver; */
+  background: silver;
   color: white;
   display: flex;
   font-size: 2rem;
@@ -182,12 +182,9 @@
 }
 
 .spotify-header {
-  background: green;
 }
 
 .spotify-playlists {
-  /* height: 100%; */
-  /* width: 100%; */
   display: grid;
   grid-template-columns: repeat(3, 6.5rem);
   grid-template-rows: repeat(2, 6.5rem);
@@ -201,30 +198,34 @@
 }
 
 .playlist-1 {
-  border: 2px solid yellow;
-  background: url("images/playlist-1.png") contain;
+  background: url("images/playlist-1.png");
+  background-size: contain;
 }
 
 .playlist-2 {
-  border: 2px solid orange;
-  background: url("images/playlist-1.png") contain;
+  background: url("images/playlist-1.png");
+  background-size: contain;
 }
 
-/* .playlist-3 { 
-  background: url(img/spot3.png) center cover;
+.playlist-3 {
+  background: url("images/playlist-1.png");
+  background-size: contain;
 }
 
 .playlist-4 {
-  background: url(img/spot4.png) center cover;
+  background: url("images/playlist-1.png");
+  background-size: contain;
 }
 
 .playlist-5 {
-  background: url(img/spot5.png) center cover;
+  background: url("images/playlist-1.png");
+  background-size: contain;
 }
 
 .playlist-6 {
-  background: url(img/spot6.png) center cover;
-} */
+  background: url("images/playlist-1.png");
+  background-size: contain;
+}
 
 .contact {
   align-items: center;
