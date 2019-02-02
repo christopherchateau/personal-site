@@ -139,8 +139,8 @@
   grid-template-areas:
     "headshot spotify"
     "headshot contact";
-  grid-auto-columns: 50% 50%;
-  grid-auto-rows: 50% 50%;
+  grid-auto-columns: 50vw 50vw;
+  grid-auto-rows: 70vh 30vh;
   height: 100vh;
 }
 
@@ -173,7 +173,7 @@
 
 .spotify {
   align-items: center;
-  background: silver;
+  background: rgb(26, 26, 26);
   color: white;
   display: flex;
   font-size: 2rem;
@@ -186,9 +186,9 @@
 
 .spotify-playlists {
   display: grid;
-  grid-template-columns: repeat(3, 6.5rem);
-  grid-template-rows: repeat(2, 6.5rem);
-  grid-gap: 1.5rem 2.5rem;
+  grid-template-columns: repeat(3, 8.5rem);
+  grid-template-rows: repeat(2, 8.5rem);
+  grid-gap: 2rem 2.5rem;
   justify-content: center;
 }
 
