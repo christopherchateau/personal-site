@@ -14,7 +14,7 @@ class App extends Component {
               href="https://linkedin.com/in/christopherchateau/"
               target="_blank"
             >
-              <i class="fab fa-linkedin-in" />
+              <i class="fab fa-linkedin" />
             </a>
             <a
               href="https://www.codewars.com/users/christopherchateau"
@@ -105,31 +105,11 @@ class App extends Component {
                 class="playlist playlist-1"
                 target="_blank"
               />
-              <a
-                href=""
-                class="playlist playlist-2"
-                target="_blank"
-              />
-              <a
-                href=""
-                class="playlist playlist-3"
-                target="_blank"
-              />
-              <a
-                href=""
-                class="playlist playlist-4"
-                target="_blank"
-              />
-              <a
-                href=""
-                class="playlist playlist-5"
-                target="_blank"
-              />
-              <a
-                href=""
-                target="_blank"
-                class="playlist playlist-6"
-              />
+              <a href="" class="playlist playlist-2" target="_blank" />
+              <a href="" class="playlist playlist-3" target="_blank" />
+              <a href="" class="playlist playlist-4" target="_blank" />
+              <a href="" class="playlist playlist-5" target="_blank" />
+              <a href="" target="_blank" class="playlist playlist-6" />
             </section>
           </div>
           <div className="contact">
