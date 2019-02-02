@@ -302,7 +302,7 @@
     font-size: 3rem;
   }
 
-  .proj-6 {
+  .proj-space-bunny {
     font-size: 2rem;
   }
 }
@@ -324,9 +324,9 @@
 }
 @media screen and (max-width: 520px) {
   .spotify-playlists {
-    grid-template-columns: repeat(3, 6.5rem);
-    grid-template-rows: repeat(2, 6.5rem);
-    grid-gap: 2rem 1rem;
+    grid-template-columns: repeat(3, 5.5rem);
+    grid-template-rows: repeat(2, 5.5rem);
+    grid-gap: 2rem .5rem;
   }
 }
 
@@ -348,17 +348,25 @@
     font-size: 2rem;
   }
 
-  .proj-6 {
+  .proj-space-bunny {
     font-size: 1.3rem;
   }
 
   .text-area {
     padding: 0 10px;
   }
+
+  .contact {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 370px) {
   .name {
     font-size: 3rem;
+  }
+
+  .contact {
+    font-size: 0.8rem;
   }
 }
