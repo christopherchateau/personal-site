@@ -101,32 +101,32 @@ class App extends Component {
             <header className="spotify-header">currently in rotation</header>
             <section className="spotify-playlists">
               <a
-                href="https://open.spotify.com/user/spotify/playlist/37i9dQZF1DX6ziVCJnEm59"
+                href="https://open.spotify.com/playlist/37i9dQZF1DXbrNmKPI2OlG"
                 class="playlist playlist-1"
                 target="_blank"
               />
               <a
-                href="https://open.spotify.com/user/mazza333/playlist/7iumOW8FWRfJSL66wum4in"
+                href=""
                 class="playlist playlist-2"
                 target="_blank"
               />
               <a
-                href="https://open.spotify.com/show/5GcTIDkgnB9wP6CmUyOSqa"
+                href=""
                 class="playlist playlist-3"
                 target="_blank"
               />
               <a
-                href="https://open.spotify.com/user/spotify/playlist/37i9dQZF1DX8Uebhn9wzrS"
+                href=""
                 class="playlist playlist-4"
                 target="_blank"
               />
               <a
-                href="https://open.spotify.com/user/ambition-music/playlist/6o1BCSdwXiFX3f3lMfkbED"
+                href=""
                 class="playlist playlist-5"
                 target="_blank"
               />
               <a
-                href="https://open.spotify.com/track/3rq19UOvkdiMKVVFJ4txmf"
+                href=""
                 target="_blank"
                 class="playlist playlist-6"
               />
