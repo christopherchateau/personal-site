@@ -226,7 +226,7 @@
   align-items: center;
   color: rgb(106, 106, 106);
   display: flex;
-  font-size: 2rem;
+  font-size: 1.6rem;
   justify-content: center;
 }
 
@@ -253,6 +253,13 @@
   }
 }
 
+@media screen and (max-width: 1050px) {
+  .spotify-playlists {
+    grid-template-columns: repeat(3, 6.5rem);
+    grid-template-rows: repeat(2, 6.5rem);
+  }
+}
+
 @media screen and (max-width: 950px) {
   .name {
     font-size: 8rem;
@@ -271,16 +278,26 @@
       "spotify"
       "contact";
     grid-template-columns: 1fr;
+    width: 100vw;
   }
 
   .headshot {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
       url("./images/headshotBW.jpg") center no-repeat;
-    background-size: 100% auto;
+    background-size: 110% auto;
+  }
+
+  .spotify-playlists {
+    grid-template-columns: repeat(3, 8.5rem);
+    grid-template-rows: repeat(2, 8.5rem);
   }
 }
 
 @media screen and (max-width: 687px) {
+  .headshot {
+    background-size: auto 100%;
+  }
+
   .proj {
     font-size: 3rem;
   }
@@ -303,6 +320,13 @@
 
   .text-area {
     font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .spotify-playlists {
+    grid-template-columns: repeat(3, 6.5rem);
+    grid-template-rows: repeat(2, 6.5rem);
+    grid-gap: 2rem 1rem;
   }
 }
 
