@@ -109,7 +109,7 @@ class App extends Component {
               <a href="" class="playlist playlist-3" target="_blank" />
               <a href="" class="playlist playlist-4" target="_blank" />
               <a href="" class="playlist playlist-5" target="_blank" />
-              <a href="" target="_blank" class="playlist playlist-6" />
+              <a href="" class="playlist playlist-6" target="_blank"/>
             </section>
           </div>
           <div className="contact">
