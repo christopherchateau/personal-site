@@ -98,7 +98,7 @@ class App extends Component {
             </article>
           </div>
           <div className="spotify">
-            <header className="spotify-header">currently in rotation</header>
+            <header>currently in rotation</header>
             <section className="spotify-playlists">
               <a
                 href="https://open.spotify.com/playlist/37i9dQZF1DXbrNmKPI2OlG"
