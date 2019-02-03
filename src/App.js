@@ -105,11 +105,31 @@ class App extends Component {
                 class="playlist playlist-1"
                 target="_blank"
               />
-              <a href="" class="playlist playlist-2" target="_blank" />
-              <a href="" class="playlist playlist-3" target="_blank" />
-              <a href="" class="playlist playlist-4" target="_blank" />
-              <a href="" class="playlist playlist-5" target="_blank" />
-              <a href="" class="playlist playlist-6" target="_blank"/>
+              <a
+                href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
+                class="playlist playlist-2"
+                target="_blank"
+              />
+              <a
+                href="https://open.spotify.com/playlist/37i9dQZF1DX0SM0LYsmbMT"
+                class="playlist playlist-3"
+                target="_blank"
+              />
+              <a
+                href="https://open.spotify.com/album/6oRuinkJdTge4hpTuClEF8"
+                class="playlist playlist-4"
+                target="_blank"
+              />
+              <a
+                href="https://open.spotify.com/playlist/37i9dQZF1DWZMCPjHG57gq"
+                class="playlist playlist-5"
+                target="_blank"
+              />
+              <a
+                href="https://open.spotify.com/playlist/37i9dQZF1DXbSbnqxMTGx9"
+                class="playlist playlist-6"
+                target="_blank"
+              />
             </section>
           </div>
           <div className="contact">

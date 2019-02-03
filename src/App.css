@@ -125,7 +125,7 @@
 }
 
 .proj-space-bunny {
-  background: url("./images/space-bunny.gif") center no-repeat black;
+  background: url("./images/space-bunny.gif") center no-repeat rgb(33, 33, 33);
   color: #25e200;
   font-family: "Press Start 2P", cursive;
   font-size: 3rem;
@@ -190,6 +190,10 @@
   grid-template-rows: repeat(2, 8.5rem);
   grid-gap: 2rem 2.5rem;
   justify-content: center;
+}
+
+.playlist  {
+  cursor: pointer;
 }
 
 .playlist-1 {
@@ -326,7 +330,7 @@
   .spotify-playlists {
     grid-template-columns: repeat(3, 5.5rem);
     grid-template-rows: repeat(2, 5.5rem);
-    grid-gap: 2rem .5rem;
+    grid-gap: 2rem 0.5rem;
   }
 }
 
