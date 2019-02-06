@@ -50,8 +50,8 @@
 }
 
 .proj-section {
-  width: 100vw;
   padding-bottom: 20px;
+  width: 100vw;
 }
 
 .proj-wrapper {
@@ -135,7 +135,7 @@
 }
 
 .me-section {
-  background: white;
+  background: rgb(26, 26, 26);
   display: grid;
   grid-template-areas:
     "headshot spotify"
@@ -191,7 +191,7 @@
   justify-content: center;
 }
 
-.playlist  {
+.playlist {
   cursor: pointer;
 }
 
