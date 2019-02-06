@@ -285,12 +285,6 @@
     width: 100vw;
   }
 
-  .headshot {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
-      url("./images/headshotBW.jpg") center no-repeat;
-    background-size: 110% auto;
-  }
-
   .spotify-playlists {
     grid-template-columns: repeat(3, 8.5rem);
     grid-template-rows: repeat(2, 8.5rem);
