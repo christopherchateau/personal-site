@@ -101,6 +101,7 @@
 .proj-pp {
   background: linear-gradient(hsla(0, 0%, 0%, 0.4), rgba(0, 0, 0, 0.4)),
     url("./images/pp.gif") center no-repeat;
+  background-size: auto 100%;
   font-family: "Gloria Hallelujah", cursive;
   text-decoration: none;
 }
