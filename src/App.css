@@ -45,7 +45,7 @@
   font-size: 12rem;
   font-weight: 500;
   justify-content: flex-end;
-  padding: 10vh 10vw;
+  padding-right: 10vw;
   text-align: right;
 }
 
@@ -343,6 +343,10 @@
 }
 
 @media screen and (max-width: 445px) {
+  .name {
+    padding-bottom: 15vh;
+  }
+
   .proj {
     font-size: 2rem;
   }
