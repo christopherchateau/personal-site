@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-1.1f04bbf0.png"
   },
   {
-    "revision": "bde621ba116a5863d745",
-    "url": "/personal-site/static/css/main.f14277c9.chunk.css"
+    "revision": "888cf26a6fe52fb75a59",
+    "url": "/personal-site/static/css/main.240838c6.chunk.css"
   },
   {
     "revision": "4a34e45d34cafb7623bd",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/personal-site/static/js/runtime~main.60ebdd6b.js"
   },
   {
-    "revision": "ed03b183dd06efc37cf4b2c755663adc",
-    "url": "/personal-site/static/media/pp.ed03b183.png"
+    "revision": "30b7c8e5cb84b90d8b8725f069341e0e",
+    "url": "/personal-site/static/media/pp.30b7c8e5.gif"
   },
   {
     "revision": "cf58732602fa3442a33cb3df1e9fd400",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-4.272588d4.png"
   },
   {
-    "revision": "bde621ba116a5863d745",
-    "url": "/personal-site/static/js/main.bde621ba.chunk.js"
+    "revision": "888cf26a6fe52fb75a59",
+    "url": "/personal-site/static/js/main.888cf26a.chunk.js"
   },
   {
     "revision": "f8a391392ddbe6b0ad74429584f0971a",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/space-bunny.ef822d7d.gif"
   },
   {
-    "revision": "15efee913c9ac20e05558ec898118f53",
+    "revision": "e2e3e69f2c5f6877c88b4a2e34070729",
     "url": "/personal-site/index.html"
   }
 ];
