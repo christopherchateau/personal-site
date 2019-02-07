@@ -257,6 +257,10 @@
       "proj-6";
     grid-template-columns: 1fr;
   }
+
+  .proj-headcount {
+    background-attachment: fixed;
+  }
 }
 
 @media screen and (max-width: 1050px) {
