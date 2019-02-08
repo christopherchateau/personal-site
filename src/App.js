@@ -4,18 +4,18 @@ import "./App.css";
 class App extends Component {
   constructor() {
     super();
-    this.state = { tooltipMessage: "Copy to clipboard" };
+    this.state = { tooltipMessage: "copy to clipboard" };
   }
 
   copyToClipboard = () => {
     const copyText = this.refs.emailAddress;
     copyText.select();
     document.execCommand("copy");
-    this.setState({ tooltipMessage: "Copied!" });
+    this.setState({ tooltipMessage: "copied!" });
   };
 
   handleContactMouseLeave = () => {
-    this.setState({ tooltipMessage: "Copy to clipboard" });
+    this.setState({ tooltipMessage: "copy to clipboard" });
   };
   render() {
     return (
