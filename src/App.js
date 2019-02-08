@@ -2,13 +2,10 @@ import React, { Component } from "react";
 import "./App.css";
 
 class App extends Component {
-  handleEmailClick = () => {
-    // const copyText = "christopherchateau@gmail.com";
-    // document.execCommand("copy");
+  copyToClipboard = () => {
+    const copyText = document.getElementById("e-mail");
+    copyText.select();
     // alert("Copied 'christopherchateau@gmail.com'");
-    const copyText = document.querySelector(".e-mail");
-    copyText[0].select();
-    console.log(copyText);
   };
   render() {
     return (
@@ -141,10 +138,14 @@ class App extends Component {
             </section>
           </div>
           <div className="contact">
-            <button className="e-mail" onClick={this.handleEmailClick}>
+            <div className="e-mail-wrapper" onClick={this.copyToClipboard}>
               <i className="fas fa-envelope" />
-              christopherchateau@gmail.com
-            </button>
+              <input
+                id="e-mail"
+                type="text"
+                value="christopherchateau@gmail.com"
+              />
+            </div>
           </div>
         </section>
       </div>
