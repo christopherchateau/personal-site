@@ -260,6 +260,10 @@
   font-size: 1.6rem;
 }
 
+.fa-envelope:hover {
+  color: rgb(106, 106, 106);
+}
+
 .tooltip-text {
   background: #555;
   border-radius: 6px;
