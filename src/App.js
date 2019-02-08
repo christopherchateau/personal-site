@@ -2,12 +2,19 @@ import React, { Component } from "react";
 import "./App.css";
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = { tooltipMessage: "Copy to clipboard" };
+  }
   copyToClipboard = () => {
     const copyText = this.refs.emailAddress;
-    // copyText.select();
-    console.log(copyText);
+    copyText.select();
+    document.execCommand("copy");
+    alert("Copied 'christopherchateau@gmail.com'");
+  };
 
-    // alert("Copied 'christopherchateau@gmail.com'");
+  handleContactHover = () => {
+    console.log(this.state.tooltipMessage);
   };
   render() {
     return (
@@ -140,7 +147,11 @@ class App extends Component {
             </section>
           </div>
           <div className="contact">
-            <div className="e-mail-wrapper" onClick={this.copyToClipboard}>
+            <div
+              className="e-mail-wrapper"
+              onClick={this.copyToClipboard}
+              onMouseLeave={this.handleContactHover}
+            >
               <i className="fas fa-envelope" />
               <input
                 className="e-mail"
