@@ -3,8 +3,10 @@ import "./App.css";
 
 class App extends Component {
   copyToClipboard = () => {
-    const copyText = document.getElementById("e-mail");
-    copyText.select();
+    const copyText = this.refs.emailAddress;
+    // copyText.select();
+    console.log(copyText);
+
     // alert("Copied 'christopherchateau@gmail.com'");
   };
   render() {
@@ -141,7 +143,8 @@ class App extends Component {
             <div className="e-mail-wrapper" onClick={this.copyToClipboard}>
               <i className="fas fa-envelope" />
               <input
-                id="e-mail"
+                className="e-mail"
+                ref="emailAddress"
                 type="text"
                 value="christopherchateau@gmail.com"
               />
