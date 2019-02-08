@@ -133,10 +133,10 @@ class App extends Component {
             </section>
           </div>
           <div className="contact">
-            <h4 className="e-mail">
+            <button className="e-mail">
               <i class="fas fa-envelope" />
               christopherchateau@gmail.com
-            </h4>
+            </button>
           </div>
         </section>
       </div>
