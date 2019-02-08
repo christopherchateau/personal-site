@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import "./App.css";
 
 class App extends Component {
+  handleEmailClick = () => {
+    const copyText = "christopherchateau@gmail.com";
+    copyText.select();
+    document.execCommand("copy");
+    alert("Copied 'christopherchateau@gmail.com'");
+  };
   render() {
     return (
       <div className="App">
@@ -133,7 +139,7 @@ class App extends Component {
             </section>
           </div>
           <div className="contact">
-            <button className="e-mail">
+            <button className="e-mail" onClick={this.handleEmailClick}>
               <i class="fas fa-envelope" />
               christopherchateau@gmail.com
             </button>
