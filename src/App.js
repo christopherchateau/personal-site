@@ -11,7 +11,7 @@ class App extends Component {
     const copyText = this.refs.emailAddress;
     copyText.select();
     document.execCommand("copy");
-    this.setState({ tooltipMessage: "Copied: christopherchateau@gmail.com" });
+    this.setState({ tooltipMessage: "Copied!" });
   };
 
   handleContactMouseLeave = () => {
@@ -147,15 +147,9 @@ class App extends Component {
               />
             </section>
           </div>
-          <div className="contact">
-            <span className="tooltip-text" ref="tooltip">
-              {this.state.tooltipMessage}
-            </span>
-            <div
-              className="e-mail-wrapper"
-              onClick={this.copyToClipboard}
-              onMouseLeave={this.handleContactMouseLeave}
-            >
+          <div className="contact" onMouseLeave={this.handleContactMouseLeave}>
+            <span className="tooltip-text">{this.state.tooltipMessage}</span>
+            <div className="e-mail-wrapper" onClick={this.copyToClipboard}>
               <i className="fas fa-envelope" />
               <input
                 className="e-mail"
