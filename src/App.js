@@ -6,15 +6,16 @@ class App extends Component {
     super();
     this.state = { tooltipMessage: "Copy to clipboard" };
   }
+
   copyToClipboard = () => {
     const copyText = this.refs.emailAddress;
     copyText.select();
     document.execCommand("copy");
-    alert("Copied 'christopherchateau@gmail.com'");
+    this.setState({ tooltipMessage: "Copied: christopherchateau@gmail.com" });
   };
 
-  handleContactHover = () => {
-    console.log(this.state.tooltipMessage);
+  handleContactMouseLeave = () => {
+    this.setState({ tooltipMessage: "Copy to clipboard" });
   };
   render() {
     return (
@@ -147,10 +148,13 @@ class App extends Component {
             </section>
           </div>
           <div className="contact">
+            <span className="tooltip-text" ref="tooltip">
+              {this.state.tooltipMessage}
+            </span>
             <div
               className="e-mail-wrapper"
               onClick={this.copyToClipboard}
-              onMouseLeave={this.handleContactHover}
+              onMouseLeave={this.handleContactMouseLeave}
             >
               <i className="fas fa-envelope" />
               <input
