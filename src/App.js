@@ -3,10 +3,12 @@ import "./App.css";
 
 class App extends Component {
   handleEmailClick = () => {
-    const copyText = "christopherchateau@gmail.com";
-    copyText.select();
-    document.execCommand("copy");
-    alert("Copied 'christopherchateau@gmail.com'");
+    // const copyText = "christopherchateau@gmail.com";
+    // document.execCommand("copy");
+    // alert("Copied 'christopherchateau@gmail.com'");
+    const copyText = document.querySelector(".e-mail");
+    copyText[0].select();
+    console.log(copyText);
   };
   render() {
     return (
@@ -14,25 +16,25 @@ class App extends Component {
         <section className="name-section">
           <nav className="links">
             <a href="https://github.com/christopherchateau" target="_blank">
-              <i class="fab fa-github" />
+              <i className="fab fa-github" />
             </a>
             <a
               href="https://linkedin.com/in/christopherchateau/"
               target="_blank"
             >
-              <i class="fab fa-linkedin" />
+              <i className="fab fa-linkedin" />
             </a>
             <a
               href="https://www.codewars.com/users/christopherchateau"
               target="_blank"
             >
-              <i class="fas fa-code" />
+              <i className="fas fa-code" />
             </a>
             <a
               href="https://open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA"
               target="_blank"
             >
-              <i class="fab fa-spotify" />
+              <i className="fab fa-spotify" />
             </a>
           </nav>
           <div className="name">
@@ -108,39 +110,39 @@ class App extends Component {
             <section className="spotify-playlists">
               <a
                 href="https://open.spotify.com/playlist/37i9dQZF1DXbrNmKPI2OlG"
-                class="playlist playlist-1"
+                className="playlist playlist-1"
                 target="_blank"
               />
               <a
                 href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
-                class="playlist playlist-2"
+                className="playlist playlist-2"
                 target="_blank"
               />
               <a
                 href="https://open.spotify.com/playlist/37i9dQZF1DX0SM0LYsmbMT"
-                class="playlist playlist-3"
+                className="playlist playlist-3"
                 target="_blank"
               />
               <a
                 href="https://open.spotify.com/album/6oRuinkJdTge4hpTuClEF8"
-                class="playlist playlist-4"
+                className="playlist playlist-4"
                 target="_blank"
               />
               <a
                 href="https://open.spotify.com/playlist/37i9dQZF1DWZMCPjHG57gq"
-                class="playlist playlist-5"
+                className="playlist playlist-5"
                 target="_blank"
               />
               <a
                 href="https://open.spotify.com/playlist/37i9dQZF1DXbSbnqxMTGx9"
-                class="playlist playlist-6"
+                className="playlist playlist-6"
                 target="_blank"
               />
             </section>
           </div>
           <div className="contact">
             <button className="e-mail" onClick={this.handleEmailClick}>
-              <i class="fas fa-envelope" />
+              <i className="fas fa-envelope" />
               christopherchateau@gmail.com
             </button>
           </div>
