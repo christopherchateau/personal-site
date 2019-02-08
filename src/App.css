@@ -238,12 +238,17 @@
   justify-content: center;
 }
 
-.e-mail {
+.e-mail-wrapper {
   background: white;
   border: 2px solid rgb(106, 106, 106);
   cursor: pointer;
+  padding: 10px 15px;
+}
+
+.e-mail {
+  border: none;
   font-size: 1.6rem;
-  padding: 5px 10px;
+  width: 360px;
 }
 
 .fa-envelope {
