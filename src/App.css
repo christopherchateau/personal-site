@@ -235,12 +235,14 @@
   background: white;
   color: rgb(106, 106, 106);
   display: flex;
-  font-size: 1.6rem;
   justify-content: center;
 }
 
 .e-mail {
+  background: white;
   border: 2px solid rgb(106, 106, 106);
+  cursor: pointer;
+  font-size: 1.6rem;
   padding: 5px 10px;
 }
 
@@ -373,7 +375,7 @@
     padding: 0 10px;
   }
 
-  .contact {
+  .e-mail {
     font-size: 1rem;
   }
 }
@@ -383,7 +385,7 @@
     font-size: 3rem;
   }
 
-  .contact {
+  .e-mail {
     font-size: 0.8rem;
   }
 }
