@@ -78,9 +78,21 @@
 
 .proj:hover {
   cursor: pointer;
+  letter-spacing: 10px;
   opacity: 0.7;
-  transition: all 0.4s ease-in-out;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
   transform: scale(1.2);
+}
+
+.proj-cc:hover,
+.proj-headcount:hover {
+  letter-spacing: 5px;
+}
+
+.proj:after,
+.proj:before {
+  transition: all 880ms ease-in-out;
 }
 
 .proj-summit-register {
@@ -303,7 +315,7 @@
   visibility: visible;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .proj-wrapper {
     grid-template-areas:
       "proj-1"
