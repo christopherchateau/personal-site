@@ -269,13 +269,13 @@
   border-radius: 6px;
   bottom: 20vh;
   color: #fff;
+  cursor: pointer;
   opacity: 0;
   padding: 10px;
   position: absolute;
   text-align: center;
   transition: opacity 0.5s;
   visibility: hidden;
-  /* width: 140px; */
   z-index: 1;
 }
 
