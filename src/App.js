@@ -17,6 +17,7 @@ class App extends Component {
   handleContactMouseLeave = () => {
     this.setState({ tooltipMessage: "copy to clipboard" });
   };
+
   render() {
     return (
       <div className="App">
