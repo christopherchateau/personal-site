@@ -80,7 +80,7 @@
   cursor: pointer;
   opacity: 0.7;
   transition: all 0.4s ease-in-out;
-  transform: scale(1.06);
+  transform: scale(1.2);
 }
 
 .proj-summit-register {
@@ -156,7 +156,7 @@
 .headshot {
   align-items: flex-end;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-  url("./images/headshotBW.jpg") center no-repeat;
+    url("./images/headshotBW.jpg") center no-repeat;
   display: flex;
   background-size: auto 100%;
   grid-area: headshot;
