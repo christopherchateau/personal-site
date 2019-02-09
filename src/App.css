@@ -146,8 +146,8 @@
   grid-template-areas:
     "headshot spotify"
     "headshot contact";
-  grid-auto-columns: 50vw 50vw;
-  grid-auto-rows: 70vh 30vh;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 70vh 30vh;
   height: 100vh;
 }
 
