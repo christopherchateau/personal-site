@@ -22,24 +22,31 @@ class App extends Component {
       <div className="App">
         <section className="name-section">
           <nav className="links">
-            <a href="https://github.com/christopherchateau" target="_blank">
+            <a
+              href="https://github.com/christopherchateau"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github" />
             </a>
             <a
               href="https://linkedin.com/in/christopherchateau/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-linkedin" />
             </a>
             <a
               href="https://www.codewars.com/users/christopherchateau"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="fas fa-code" />
             </a>
             <a
               href="https://open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-spotify" />
             </a>
@@ -56,6 +63,7 @@ class App extends Component {
               href="https://github.com/christopherchateau/summit-register-FE"
               className="proj-summit-register proj"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <h4 className="proj-summit-register-title">summit register</h4>
             </a>
@@ -63,6 +71,7 @@ class App extends Component {
               href="https://github.com/christopherchateau/marvelous"
               className="proj-marvelous proj"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <h4>MARVELOUS</h4>
             </a>
@@ -70,6 +79,7 @@ class App extends Component {
               href="https://github.com/christopherchateau/palette-picker"
               className="proj-pp proj"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <h4>palette picker</h4>
             </a>
@@ -77,6 +87,7 @@ class App extends Component {
               href="https://github.com/christopherchateau/movie-tracker"
               className="proj-cc proj"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <h4 className="cc-title">coenCollection</h4>
             </a>
@@ -84,6 +95,7 @@ class App extends Component {
               href="https://github.com/christopherchateau/headcount2.0"
               className="proj-headcount proj"
               target="_blank"
+              rel="noopener noreferrer"
             >
               HEADCOUNT
             </a>
@@ -91,6 +103,7 @@ class App extends Component {
               href="https://github.com/christopherchateau/space-bunny"
               className="proj-space-bunny proj"
               target="_blank"
+              rel="noopener noreferrer"
             >
               SPACE BUNNY
             </a>
@@ -119,31 +132,37 @@ class App extends Component {
                 href="https://open.spotify.com/playlist/37i9dQZF1DXbrNmKPI2OlG"
                 className="playlist playlist-1"
                 target="_blank"
+                rel="noopener noreferrer"
               />
               <a
                 href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
                 className="playlist playlist-2"
                 target="_blank"
+                rel="noopener noreferrer"
               />
               <a
                 href="https://open.spotify.com/playlist/37i9dQZF1DX0SM0LYsmbMT"
                 className="playlist playlist-3"
                 target="_blank"
+                rel="noopener noreferrer"
               />
               <a
                 href="https://open.spotify.com/album/6oRuinkJdTge4hpTuClEF8"
                 className="playlist playlist-4"
                 target="_blank"
+                rel="noopener noreferrer"
               />
               <a
                 href="https://open.spotify.com/playlist/37i9dQZF1DWZMCPjHG57gq"
                 className="playlist playlist-5"
                 target="_blank"
+                rel="noopener noreferrer"
               />
               <a
                 href="https://open.spotify.com/playlist/37i9dQZF1DXbSbnqxMTGx9"
                 className="playlist playlist-6"
                 target="_blank"
+                rel="noopener noreferrer"
               />
             </section>
           </div>
