@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/space-bunny.ef822d7d.gif"
   },
   {
-    "revision": "a4c7e90f6908b4b85d3d972b2c9f2237",
+    "revision": "d67d41083060f52539a29fdf9546f214",
     "url": "/personal-site/index.html"
   }
 ];
