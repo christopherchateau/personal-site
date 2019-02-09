@@ -133,6 +133,7 @@
 .proj-space-bunny {
   background: url("./images/space-bunny.gif") center no-repeat rgb(33, 33, 33);
   color: #25e200;
+  filter: saturate(2.2);
   font-family: "Press Start 2P", cursive;
   font-size: 2rem;
   text-decoration: none;
@@ -269,13 +270,13 @@
   border-radius: 6px;
   bottom: 20vh;
   color: #fff;
+  cursor: pointer;
   opacity: 0;
   padding: 10px;
   position: absolute;
   text-align: center;
   transition: opacity 0.5s;
   visibility: hidden;
-  /* width: 140px; */
   z-index: 1;
 }
 
