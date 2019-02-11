@@ -373,6 +373,8 @@
 
   .proj-marvelous {
     background-attachment: scroll;
+    background-size: auto;
+    
   }
 }
 
