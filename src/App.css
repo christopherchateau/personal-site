@@ -260,6 +260,7 @@
   align-items: center;
   background: white;
   color: rgb(106, 106, 106);
+  cursor: pointer;
   display: flex;
   justify-content: center;
   min-height: 200px;
@@ -269,7 +270,6 @@
 .e-mail-wrapper {
   background: white;
   border: 2px solid rgb(106, 106, 106);
-  cursor: pointer;
   padding: 10px 14px;
 }
 

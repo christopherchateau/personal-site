@@ -167,11 +167,13 @@ class App extends Component {
               />
             </section>
           </div>
-          <div className="contact" onMouseLeave={this.handleContactMouseLeave}>
-            <span className="tooltip-text" onClick={this.copyToClipboard}>
-              {this.state.tooltipMessage}
-            </span>
-            <div className="e-mail-wrapper" onClick={this.copyToClipboard}>
+          <div
+            className="contact"
+            onMouseLeave={this.handleContactMouseLeave}
+            onClick={this.copyToClipboard}
+          >
+            <span className="tooltip-text">{this.state.tooltipMessage}</span>
+            <div className="e-mail-wrapper">
               <i className="fas fa-envelope" />
               <input
                 className="e-mail"
