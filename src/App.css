@@ -27,8 +27,8 @@
 
 .fab,
 .fas {
-  background: black;
-  color: white;
+  background: transparent;
+  color: black;
   margin: 0 5px;
   padding: 8px;
   transition: all 0.4s ease-in-out;
@@ -36,15 +36,15 @@
 
 .fab:hover,
 .fas:hover {
-  background: transparent;
-  color: black;
+  background: black;
+  color: white;
   transition: all 0.4s ease-in-out;
 }
 
 .name {
   align-items: flex-end;
   animation: in 2s ease-out forwards;
-  color: white;
+  color: red;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10rem;
@@ -363,10 +363,6 @@
 @media screen and (max-width: 970px) {
   .name {
     font-size: 8rem;
-  }
-
-  .name-section {
-    background-size: auto 100%;
   }
 }
 
