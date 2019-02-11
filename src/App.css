@@ -361,8 +361,9 @@
   }
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 980px) {
   .name-section {
+    background-attachment: scroll;
     background-size: auto 100%;
   }
 
