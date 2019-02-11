@@ -11,7 +11,7 @@ class App extends Component {
     const copyText = this.refs.emailAddress;
     copyText.select();
     document.execCommand("copy");
-    this.setState({ tooltipMessage: "copied!" });
+    this.setState({ tooltipMessage: "you did it!" });
   };
 
   handleContactMouseLeave = () => {

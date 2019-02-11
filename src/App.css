@@ -276,8 +276,8 @@
 .e-mail {
   border: none;
   cursor: pointer;
-  outline: none;
   font-size: 1.4rem;
+  outline: none;
   width: 320px;
 }
 
