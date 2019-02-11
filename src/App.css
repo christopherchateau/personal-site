@@ -362,9 +362,9 @@
 }
 
 @media screen and (max-width: 970px) {
-  /* .name-section {
-    background-size: auto 100vh;
-  } */
+  .name-section {
+    background-size: auto 100%;
+  }
 
   .name {
     font-size: 8rem;
