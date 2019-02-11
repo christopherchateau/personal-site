@@ -14,7 +14,7 @@
 .name-section {
   background: url("../src/images/atitlan1.JPG") center no-repeat;
   background-attachment: fixed;
-  background-size: 100% auto;
+  background-size: cover;
   display: grid;
   grid-template-rows: 60px 1fr;
   min-height: 600px;
@@ -126,7 +126,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./images/marvelous.jpg") center no-repeat;
   background-attachment: fixed;
-  /* background-size: cover; */
+  background-size: cover;
   font-family: "Anton", sans-serif;
   text-decoration: none;
 }
