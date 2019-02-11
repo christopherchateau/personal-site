@@ -304,6 +304,7 @@
 }
 
 .fa-envelope:hover {
+  background: white;
   color: rgb(106, 106, 106);
 }
 
