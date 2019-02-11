@@ -13,7 +13,7 @@
 
 .name-section {
   background: url("../src/images/atitlan.jpg") center no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-size: 100% auto;
   display: grid;
   grid-template-rows: 60px 1fr;
