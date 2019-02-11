@@ -12,7 +12,7 @@
 }
 
 .name-section {
-  background: url("../src/images/atitlan1.JPG") center no-repeat;
+  background: url("../src/images/atitlan1.jpg") center no-repeat;
   background-attachment: fixed;
   background-size: cover;
   display: grid;
@@ -189,8 +189,8 @@
   background-size: cover;
   grid-area: headshot;
   margin: 0 auto;
-  max-width: 960px;
   min-height: 600px;
+  max-width: 960px;
 }
 
 .text-area {
