@@ -38,7 +38,7 @@
 .fab:hover,
 .fas:hover {
   background: black;
-  color: white;
+  color: rgb(211, 211, 211);
   transition: all 0.4s ease-in-out;
 }
 
