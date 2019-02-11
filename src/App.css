@@ -14,7 +14,7 @@
 .name-section {
   background: url("../src/images/atitlan.jpg") center no-repeat;
   background-attachment: fixed;
-  background-size: 100% auto;
+  background-size: cover;
   display: grid;
   grid-template-rows: 60px 1fr;
   min-height: 600px;
