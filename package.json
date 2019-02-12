@@ -5,6 +5,7 @@
   "homepage": "https://christopherchateau.github.io/personal-site/",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "jquery": "^3.3.1",
     "normalize.css": "^8.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

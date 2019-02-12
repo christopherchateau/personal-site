@@ -1,11 +1,23 @@
 import React, { Component } from "react";
 import "./App.css";
+import $ from "jquery";
 
 class App extends Component {
   constructor() {
     super();
     this.state = { tooltipMessage: "copy to clipboard" };
   }
+
+  componentDidMount = () => {
+    $(window).scroll(function() {
+      let windowHeight = window.innerHeight;
+      if ($(this).scrollTop() > windowHeight * 0.7) {
+        $(".links").fadeOut();
+      } else {
+        $(".links").fadeIn();
+      }
+    });
+  };
 
   copyToClipboard = () => {
     const copyText = this.refs.emailAddress;
@@ -15,6 +27,7 @@ class App extends Component {
   };
 
   handleContactMouseLeave = () => {
+    alert(window.innerHeight);
     this.setState({ tooltipMessage: "copy to clipboard" });
   };
 
