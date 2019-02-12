@@ -11,10 +11,10 @@ class App extends Component {
   componentDidMount = () => {
     $(window).scroll(function() {
       let windowHeight = window.innerHeight;
-      if ($(this).scrollTop() > windowHeight * 0.7) {
-        $(".links").fadeOut();
+      if ($(this).scrollTop() > windowHeight * 0.8) {
+        $(".links").slideUp(200);
       } else {
-        $(".links").fadeIn();
+        $(".links").slideDown(600);
       }
     });
   };
