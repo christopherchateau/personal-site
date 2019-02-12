@@ -97,7 +97,7 @@
 .proj:hover {
   cursor: pointer;
   letter-spacing: 10px;
-  opacity: .8;
+  opacity: 0.8;
   text-align: center;
   transition: all 0.5s ease-in-out;
   transform: scale(1.2);
@@ -336,10 +336,6 @@
   transform: scale(1);
 }
 
-.hidden {
-  position: relative;
-}
-
 @media screen and (max-width: 1400px) {
   .proj-wrapper {
     grid-template-areas:
@@ -377,7 +373,6 @@
   .proj-marvelous {
     background-attachment: scroll;
     background-size: auto;
-    
   }
 }
 
@@ -390,6 +385,10 @@
       "contact";
     grid-template-columns: 1fr;
     width: 100vw;
+  }
+
+  .links {
+    position: relative;
   }
 
   .spotify-playlists {
