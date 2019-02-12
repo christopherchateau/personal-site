@@ -27,7 +27,6 @@ class App extends Component {
   };
 
   handleContactMouseLeave = () => {
-    alert(window.innerHeight);
     this.setState({ tooltipMessage: "copy to clipboard" });
   };
 

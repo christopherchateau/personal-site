@@ -451,7 +451,7 @@
 
 @media screen and (max-width: 445px) {
   .name {
-    padding-bottom: 10vh;
+    bottom: 10vh;
   }
 
   .proj {
