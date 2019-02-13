@@ -14,7 +14,12 @@ class App extends Component {
       if ($(this).scrollTop() > windowHeight * 0.8) {
         $(".links").slideUp(200);
       } else {
-        $(".links").slideDown(500);
+        $(".links").slideDown(400);
+      }
+      if ($(this).scrollTop() > windowHeight) {
+        $(".links").addClass("hidden");
+      } else {
+        $(".links").removeClass("hidden");
       }
     });
   };

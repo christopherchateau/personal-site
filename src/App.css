@@ -336,6 +336,10 @@
   transform: scale(1);
 }
 
+.hidden {
+  display: none;
+}
+
 @media screen and (max-width: 1400px) {
   .proj-wrapper {
     grid-template-areas:
