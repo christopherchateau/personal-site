@@ -10,21 +10,14 @@ class App extends Component {
 
   componentDidMount = () => {
     $(window).scroll(() => {
-      this.slideLinksOnScroll(window.innerHeight);
-      this.hideLinks(window.innerHeight);
+      this.anchorLinks(window.innerHeight);
     });
   };
 
-  slideLinksOnScroll = windowHeight => {
-    $(window).scrollTop() > windowHeight * 0.8
-      ? $(".links").slideUp(200)
-      : $(".links").slideDown(400);
-  };
-
-  hideLinks = windowHeight => {
-    $(window).scrollTop() > windowHeight
-      ? $(".links").addClass("hidden")
-      : $(".links").removeClass("hidden");
+  anchorLinks = windowHeight => {
+    $(window).scrollTop() > windowHeight * 0.9
+      ? $(".links").addClass("anchor-links")
+      : $(".links").removeClass("anchor-links");
   };
 
   copyToClipboard = () => {

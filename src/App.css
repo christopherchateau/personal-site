@@ -336,8 +336,9 @@
   transform: scale(1);
 }
 
-.hidden {
-  display: none;
+.anchor-links {
+  position: relative;
+  top: 90vh;
 }
 
 @media screen and (max-width: 1400px) {
