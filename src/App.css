@@ -4,6 +4,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+@font-face {
+  font-family: starWars;
+  src: url("./fonts/Starjedi.ttf") format("woff2");
+}
 
 .App {
   box-sizing: border-box;
@@ -165,6 +169,12 @@
   font-size: 2rem;
   text-decoration: none;
   text-shadow: 4px 4px red;
+}
+
+.proj-swapi-box {
+  background: url("./images/stars-bg.jpg") center no-repeat;
+  color: #fdde09;
+  font-family: starWars;
 }
 
 .me-section {
