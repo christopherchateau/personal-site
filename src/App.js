@@ -128,7 +128,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            $ SWAPi-Box $
+            SWAPi-Box $
           </a>
         </section>
         <section className="me-section">
