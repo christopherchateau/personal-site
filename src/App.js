@@ -130,6 +130,14 @@ class App extends Component {
               $ SWAPi-Box $
             </a>
           </div>
+          <a
+            href="https://github.com/christopherchateau/SWAPI-Box"
+            className="proj-swapi-box proj"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SWAPi-Box $
+          </a>
         </section>
         <section className="me-section">
           <div className="headshot">
