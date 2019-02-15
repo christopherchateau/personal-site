@@ -406,12 +406,6 @@
   }
 }
 
-@media screen and (max-width: 750px) {
-  .proj-swapi-box {
-    font-size: 2rem;
-  }
-}
-
 @media screen and (max-width: 687px) {
   .headshot {
     background-size: auto 100%;
