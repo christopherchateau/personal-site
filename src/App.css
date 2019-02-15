@@ -91,6 +91,7 @@
   font-size: 4rem;
   height: 16rem;
   justify-content: center;
+  text-align: center;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
 }
