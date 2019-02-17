@@ -90,20 +90,28 @@ class App extends Component {
               <h4>MARVELOUS</h4>
             </a>
             <a
-              href="https://github.com/christopherchateau/palette-picker"
-              className="proj-pp proj"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4>palette picker</h4>
-            </a>
-            <a
               href="https://github.com/christopherchateau/movie-tracker"
               className="proj-cc proj"
               target="_blank"
               rel="noopener noreferrer"
             >
               <h4 className="cc-title">coenCollection</h4>
+            </a>
+            <a
+              href="https://github.com/christopherchateau/BuildYourOwnBackend"
+              className="proj-byobe proj"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cerebral Brewing API
+            </a>
+            <a
+              href="https://github.com/christopherchateau/palette-picker"
+              className="proj-pp proj"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4>palette picker</h4>
             </a>
             <a
               href="https://github.com/christopherchateau/headcount2.0"
@@ -114,14 +122,6 @@ class App extends Component {
               HEADCOUNT
             </a>
             <a
-              href="https://github.com/christopherchateau/space-bunny"
-              className="proj-space-bunny proj"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              SPACE BUNNY
-            </a>
-            <a
               href="https://github.com/christopherchateau/SWAPI-Box"
               className="proj-swapi-box proj"
               target="_blank"
@@ -130,12 +130,12 @@ class App extends Component {
               SWAPi-Box $
             </a>
             <a
-              href="https://github.com/flevenson/BuildYourOwnBackend"
-              className="proj-byobe proj"
+              href="https://github.com/christopherchateau/space-bunny"
+              className="proj-space-bunny proj"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Cerebral Brewing API
+              SPACE BUNNY
             </a>
           </div>
         </section>
