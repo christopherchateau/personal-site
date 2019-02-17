@@ -121,23 +121,23 @@ class App extends Component {
             >
               SPACE BUNNY
             </a>
-          <a
-            href="https://github.com/christopherchateau/SWAPI-Box"
-            className="proj-swapi-box proj"
-            target="_blank"
-            rel="noopener noreferrer"
+            <a
+              href="https://github.com/christopherchateau/SWAPI-Box"
+              className="proj-swapi-box proj"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-            SWAPi-Box $
-          </a>
-          <a
-            href="https://github.com/flevenson/BuildYourOwnBackend"
-            className="proj-byobe proj"
-            target="_blank"
-            rel="noopener noreferrer"
+              SWAPi-Box $
+            </a>
+            <a
+              href="https://github.com/flevenson/BuildYourOwnBackend"
+              className="proj-byobe proj"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-            Build Your Own Backend
-          </a>
-            </div>
+              Cerebral Brewing API
+            </a>
+          </div>
         </section>
         <section className="me-section">
           <div className="headshot">
