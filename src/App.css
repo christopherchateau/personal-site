@@ -176,7 +176,9 @@
 
 .proj-byobe {
   background: url("./images/beer.gif") center no-repeat;
-
+  background-size: cover;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 .me-section {
