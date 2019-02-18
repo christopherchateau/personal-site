@@ -372,10 +372,14 @@
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
   .name-section {
     background-attachment: scroll;
     background-size: auto 100%;
+  }
+
+  .links {
+    position: relative;
   }
 
   .name {
@@ -397,10 +401,6 @@
       "contact";
     grid-template-columns: 1fr;
     width: 100vw;
-  }
-
-  .links {
-    position: relative;
   }
 
   .spotify-playlists {

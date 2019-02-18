@@ -15,7 +15,7 @@ class App extends Component {
   };
 
   anchorLinks = windowHeight => {
-    $(window).scrollTop() > windowHeight * 0.9
+    $(window).scrollTop() > windowHeight * 0.9 && window.innerWidth > 1000
       ? $(".links").addClass("anchor-links")
       : $(".links").removeClass("anchor-links");
   };
