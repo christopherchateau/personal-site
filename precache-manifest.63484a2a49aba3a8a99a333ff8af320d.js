@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/pp.30b7c8e5.gif"
   },
   {
-    "revision": "cf58732602fa3442a33cb3df1e9fd400",
-    "url": "/personal-site/static/media/wood.cf587326.jpg"
-  },
-  {
     "revision": "cc3019aa6439ef893839b8a0d6d0391d",
     "url": "/personal-site/static/media/Starjedi.cc3019aa.ttf"
+  },
+  {
+    "revision": "cf58732602fa3442a33cb3df1e9fd400",
+    "url": "/personal-site/static/media/wood.cf587326.jpg"
   },
   {
     "revision": "c0833e01ebcf90ed437a02f31910ece3",
