@@ -10,12 +10,12 @@ class App extends Component {
 
   componentDidMount = () => {
     $(window).scroll(() => {
-      this.anchorLinks(window.innerHeight);
+      this.anchorLinks();
     });
   };
 
-  anchorLinks = windowHeight => {
-    $(window).scrollTop() > windowHeight * 0.9
+  anchorLinks = () => {
+    $(window).scrollTop() > window.innerHeight * 0.9 && window.innerWidth > 970
       ? $(".links").addClass("anchor-links")
       : $(".links").removeClass("anchor-links");
   };
