@@ -48,7 +48,7 @@
 }
 
 .name {
-  animation: in 2s ease-out forwards;
+  animation: in 2.5s ease-out forwards;
   bottom: 0;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
