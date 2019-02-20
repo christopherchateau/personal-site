@@ -465,7 +465,7 @@
 @media screen and (max-width: 445px) {
   .name {
     bottom: 6vh;
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .proj {
@@ -492,6 +492,10 @@
 }
 
 @media screen and (max-width: 370px) {
+  .name {
+    font-size: 3rem;
+  }
+
   .e-mail {
     font-size: 0.8rem;
     width: 200px;
