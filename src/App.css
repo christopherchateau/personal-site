@@ -379,10 +379,6 @@
   .name {
     font-size: 8rem;
   }
-
-  .proj-marvelous {
-    background-size: auto;
-  }
 }
 
 @media screen and (max-width: 850px) {
@@ -458,6 +454,19 @@
     margin: 15px 0 0 0;
     justify-content: center;
   }
+
+  .proj {
+    font-size: 2.5rem;
+  }
+
+  .proj-swapi-box {
+    font-size: 2rem;
+  }
+
+  .proj-byobe,
+  .proj-space-bunny {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 445px) {
@@ -466,13 +475,8 @@
     font-size: 4rem;
   }
 
-  .proj {
+  .proj-cc {
     font-size: 2rem;
-  }
-
-  .proj-byobe,
-  .proj-space-bunny {
-    font-size: 1.3rem;
   }
 
   .text-area {
