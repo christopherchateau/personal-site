@@ -349,13 +349,6 @@
   top: 90vh;
 }
 
-@media screen and (max-width: 1520px) {
-  .proj-summit-register-title,
-  .proj-pp {
-    font-size: 3.5rem;
-  }
-}
-
 @media screen and (max-width: 1400px) {
   .proj-wrapper {
     grid-template-columns: 1fr;
