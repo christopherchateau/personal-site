@@ -106,6 +106,10 @@
   z-index: 1;
 }
 
+.proj-cc:hover {
+  /* background: linear-gradient(hsla(0, 0%, 0%, 0.05), rgba(0, 0, 0, 0.2)) */
+}
+
 .proj-summit-register {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
     url("./images/summit-register.jpg") top no-repeat;
@@ -134,7 +138,7 @@
 }
 
 .proj-cc {
-  background: #e8e8e8;
+  background: linear-gradient(hsla(0, 0%, 0%, 0.05), rgba(0, 0, 0, 0.1));
 }
 
 .cc-title {
