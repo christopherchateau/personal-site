@@ -195,7 +195,6 @@
   background-size: cover;
   grid-area: headshot;
   margin: 0 auto;
-  min-height: 600px;
   max-width: 960px;
 }
 
