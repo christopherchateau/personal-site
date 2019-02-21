@@ -98,20 +98,12 @@
 
 .proj:hover {
   cursor: pointer;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   opacity: 0.8;
   text-align: center;
   transition: all 0.5s ease-in-out;
   transform: scale(1.2);
   z-index: 1;
-}
-
-.proj-summit-register:hover,
-.proj-cc:hover,
-.proj-headcount:hover,
-.proj-swapi-box:hover,
-.proj-byobe:hover {
-  letter-spacing: 5px;
 }
 
 .proj-summit-register {
