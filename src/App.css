@@ -106,9 +106,11 @@
   z-index: 1;
 }
 
+.proj-summit-register:hover,
 .proj-cc:hover,
 .proj-headcount:hover,
-.proj-swapi-box:hover {
+.proj-swapi-box:hover,
+.proj-byobe:hover {
   letter-spacing: 5px;
 }
 
@@ -353,6 +355,13 @@
 .anchor-links {
   position: relative;
   top: 90vh;
+}
+
+@media screen and (max-width: 1520px) {
+  .proj-summit-register-title,
+  .proj-pp {
+    font-size: 3.5rem;
+  }
 }
 
 @media screen and (max-width: 1400px) {
