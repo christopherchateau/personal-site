@@ -435,6 +435,10 @@
 }
 
 @media screen and (max-width: 520px) {
+  .proj:hover {
+    letter-spacing: 3px;
+  }
+
   .proj-summit-register {
     background-size: auto 100%;
   }
