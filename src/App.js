@@ -113,7 +113,7 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Cerebral Brewing API
+              <p>Cerebral Brewing API</p>
               <span className="proj-hover-text">
                 javascript - express - knex - postgreSQL
               </span>
@@ -135,7 +135,7 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              HEADCOUNT
+              <h4>HEADCOUNT</h4>
               <span className="proj-hover-text">
                 react
                 <i class="fab fa-react" />
@@ -147,7 +147,7 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              SWAPi-Box $
+              <h4>SWAPi-Box $</h4>
               <span className="proj-hover-text">react - react router</span>
             </a>
             <a
@@ -156,7 +156,7 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              SPACE BUNNY
+              <h4>SPACE BUNNY</h4>
               <span className="proj-hover-text">javascript - html canvas</span>
             </a>
           </div>
