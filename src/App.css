@@ -108,7 +108,7 @@
   opacity: 0.85;
   text-align: center;
   transition: all 0.5s ease-in-out;
-  transform: scale(1.2);
+  transform: scale(1.15);
   z-index: 1;
 }
 
@@ -138,7 +138,7 @@
 .proj-headcount .proj-hover-text {
   color: rgb(92, 161, 184);
   font-size: 1.5rem;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
 }
 
 .proj-swapi-box .proj-hover-text {
