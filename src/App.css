@@ -13,6 +13,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  width: 100vw;
 }
 
 .name-section {
@@ -23,7 +24,6 @@
   grid-template-rows: 60px 1fr;
   min-height: 600px;
   height: 100vh;
-  width: 100vw;
 }
 
 .links {
@@ -79,7 +79,6 @@
 
 .proj-section {
   padding: 70px 0;
-  width: 100vw;
 }
 
 .proj-wrapper {
