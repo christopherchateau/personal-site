@@ -81,7 +81,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <h4 >summit register</h4>
-              <span className="proj-hover-text">react</span>
+              <span className="proj-hover-text">react js</span>
             </a>
             <a
               href="https://github.com/christopherchateau/marvelous"
@@ -90,7 +90,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <h4>MARVELOUS</h4>
-              <span className="proj-hover-text">react - react router - redux</span>
+              <span className="proj-hover-text">react js - react router - redux</span>
             </a>
             <a
               href="https://github.com/christopherchateau/movie-tracker"
@@ -99,7 +99,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <h4 className="cc-title">coenCollection</h4>
-              <span className="proj-hover-text">react - react router - redux</span>
+              <span className="proj-hover-text">react js - react router - redux</span>
             </a>
             <a
               href="https://github.com/christopherchateau/BuildYourOwnBackend"
@@ -126,7 +126,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               HEADCOUNT
-              <span className="proj-hover-text">react</span>
+              <span className="proj-hover-text">react js</span>
             </a>
             <a
               href="https://github.com/christopherchateau/SWAPI-Box"
@@ -135,7 +135,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               SWAPi-Box $
-              <span className="proj-hover-text">react - react router</span>
+              <span className="proj-hover-text">react js - react router</span>
             </a>
             <a
               href="https://github.com/christopherchateau/space-bunny"
