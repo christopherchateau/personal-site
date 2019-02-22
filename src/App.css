@@ -112,16 +112,19 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   opacity: 0;
-  padding: 10px 20px;
+  padding: 5px 20px;
   position: absolute;
   transform: scale(0.7);
   transition: 0.5s ease-in-out;
   z-index: 2;
 }
 
-.proj-cc .proj-hover-text,
-.proj-headcount .proj-hover-text  {
-  color: rgb(55, 55, 55);
+.proj-cc .proj-hover-text {
+  color: rgba(165, 42, 42);
+}
+
+.proj-headcount .proj-hover-text{
+  color: black;
 }
 
 .proj:hover .proj-hover-text {
