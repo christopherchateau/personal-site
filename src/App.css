@@ -127,20 +127,27 @@
 
 .proj-summit-register .proj-hover-text {
   font-size: 1.5rem;
+  text-shadow: 1px 1px rgb(225, 189, 70);
 }
 
 .proj-cc .proj-hover-text {
   color: rgb(128, 41, 41);
+  text-shadow: 1px 1px white;
 }
 
 .proj-headcount .proj-hover-text {
   color: rgb(92, 161, 184);
   font-size: 1.5rem;
   padding-bottom: 25px;
+  text-shadow: 1px 1px grey;
 }
 
 .proj-swapi-box .proj-hover-text {
   color: #fdde09;
+}
+
+.proj-space-bunny .proj-hover-text {
+  text-shadow: 1px 1px red;
 }
 
 .proj:hover .proj-hover-text {
@@ -148,7 +155,6 @@
   letter-spacing: 2px;
   opacity: 1;
   text-align: center;
-  text-shadow: none;
   transform: scale(1);
 }
 
