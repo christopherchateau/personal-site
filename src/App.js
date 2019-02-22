@@ -81,6 +81,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <h4 >summit register</h4>
+              <span className="proj-hover-text">react js</span>
             </a>
             <a
               href="https://github.com/christopherchateau/marvelous"
