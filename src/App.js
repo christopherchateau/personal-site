@@ -93,7 +93,7 @@ class App extends Component {
             >
               <h4>MARVELOUS</h4>
               <span className="proj-hover-text">
-                react - react router - redux
+                reactJS - react router - redux
               </span>
             </a>
             <a
@@ -104,7 +104,7 @@ class App extends Component {
             >
               <h4 className="cc-title">coenCollection</h4>
               <span className="proj-hover-text">
-                react - react router - redux
+                reactJS - react router - redux
               </span>
             </a>
             <a
@@ -148,7 +148,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <h4>SWAPi-Box $</h4>
-              <span className="proj-hover-text">react - react router</span>
+              <span className="proj-hover-text">reactJS - react router</span>
             </a>
             <a
               href="https://github.com/christopherchateau/space-bunny"

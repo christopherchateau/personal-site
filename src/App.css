@@ -122,9 +122,13 @@
   padding-bottom: 45px;
   position: absolute;
   text-align: center;
-  transform: scale(0.6);
+  transform: scale(0.5);
   transition: 0.5s ease-in-out;
   z-index: 2;
+}
+
+.proj-summit-register .proj-hover-text {
+  font-size: 1.5rem;
 }
 
 .proj-cc .proj-hover-text {
@@ -133,6 +137,8 @@
 
 .proj-headcount .proj-hover-text {
   color: rgb(92, 161, 184);
+  font-size: 1.5rem;
+  padding-bottom: 24px;
 }
 
 .proj-swapi-box .proj-hover-text {
@@ -219,7 +225,6 @@
   font-size: 1.6rem;
   position: relative;
   left: 4px;
-  top: 2px;
 }
 
 .proj-headcount .fa-react {
