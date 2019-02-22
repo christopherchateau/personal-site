@@ -81,7 +81,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <h4 >summit register</h4>
-              <span className="proj-hover-text">react js</span>
+              <span className="proj-hover-text">react</span>
             </a>
             <a
               href="https://github.com/christopherchateau/marvelous"
@@ -90,6 +90,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <h4>MARVELOUS</h4>
+              <span className="proj-hover-text">react - react router - redux</span>
             </a>
             <a
               href="https://github.com/christopherchateau/movie-tracker"
@@ -98,6 +99,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <h4 className="cc-title">coenCollection</h4>
+              <span className="proj-hover-text">react - react router - redux</span>
             </a>
             <a
               href="https://github.com/christopherchateau/BuildYourOwnBackend"
@@ -106,6 +108,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               Cerebral Brewing API
+              <span className="proj-hover-text">javascript - express - knex - postgreSQL</span>
             </a>
             <a
               href="https://github.com/christopherchateau/palette-picker"
@@ -114,6 +117,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <h4>palette picker</h4>
+              <span className="proj-hover-text">javascript - jquery - express</span>
             </a>
             <a
               href="https://github.com/christopherchateau/headcount2.0"
@@ -122,6 +126,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               HEADCOUNT
+              <span className="proj-hover-text">react</span>
             </a>
             <a
               href="https://github.com/christopherchateau/SWAPI-Box"
@@ -130,6 +135,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               SWAPi-Box $
+              <span className="proj-hover-text">react - react router</span>
             </a>
             <a
               href="https://github.com/christopherchateau/space-bunny"
@@ -138,6 +144,7 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               SPACE BUNNY
+              <span className="proj-hover-text">javascript - html canvas</span>
             </a>
           </div>
         </section>
