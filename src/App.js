@@ -126,7 +126,7 @@ class App extends Component {
             >
               <h4>palette picker</h4>
               <span className="proj-hover-text">
-                javascript - jquery - express
+              jQuery - express - knex - postgreSQL
               </span>
             </a>
             <a
