@@ -139,7 +139,7 @@
   color: rgb(92, 161, 184);
   font-size: 1.5rem;
   padding-bottom: 25px;
-  text-shadow: 1px 1px grey;
+  text-shadow: 1px 1px rgb(174, 174, 174);
 }
 
 .proj-swapi-box .proj-hover-text {
