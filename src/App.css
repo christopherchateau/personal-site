@@ -31,7 +31,6 @@
   position: fixed;
 }
 
-
 .fas,
 .fa-github,
 .fa-linkedin,
@@ -42,7 +41,6 @@
   padding: 8px;
   transition: all 0.4s ease-in-out;
 }
-
 
 .fas:hover,
 .fa-github:hover,
@@ -165,13 +163,10 @@
 
 .proj-marvelous {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./images/marvelous.jpg") center no-repeat fixed;
+    url("./images/marvelous.jpg") center no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   font-family: "Anton", sans-serif;
-}
-
-.proj-marvelous:hover {
-  background-attachment: inherit;
 }
 
 .proj-pp {
