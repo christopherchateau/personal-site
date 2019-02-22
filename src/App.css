@@ -130,6 +130,12 @@
   text-shadow: 1px 1px rgb(225, 189, 70);
 }
 
+.proj-marvelous .proj-hover-text,
+.proj-pp .proj-hover-text,
+.proj-byobe .proj-hover-text {
+  text-shadow: 1px 1px black;
+}
+
 .proj-cc .proj-hover-text {
   color: rgb(128, 41, 41);
   text-shadow: 1px 1px white;
