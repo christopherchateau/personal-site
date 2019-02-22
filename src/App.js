@@ -80,7 +80,7 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4 className="proj-summit-register-title">summit register</h4>
+              <h4 >summit register</h4>
             </a>
             <a
               href="https://github.com/christopherchateau/marvelous"
