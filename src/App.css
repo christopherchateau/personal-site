@@ -119,7 +119,7 @@
   font-size: 1.3rem;
   line-height: 1;
   opacity: 0;
-  padding: 25px;
+  padding-bottom: 35px;
   position: absolute;
   text-align: center;
   transform: scale(0.6);
@@ -132,7 +132,7 @@
 }
 
 .proj-headcount .proj-hover-text {
-  color: rgb(104, 182, 208);
+  color: rgb(92, 161, 184);
 }
 
 .proj-swapi-box .proj-hover-text {
@@ -208,7 +208,7 @@
 }
 
 .proj-byobe {
-  background: url("./images/beer.gif") top no-repeat;
+  background: url("./images/beer.gif") center no-repeat;
   background-size: cover;
   font-size: 2.5rem;
   font-weight: 400;
@@ -223,7 +223,7 @@
 }
 
 .proj-headcount .fa-react {
-  color: rgb(104, 182, 208);
+  color: rgb(92, 161, 184);
 }
 
 .me-section {
