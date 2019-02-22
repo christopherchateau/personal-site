@@ -9,7 +9,7 @@
   src: url("./fonts/Starjedi.ttf") format("woff2");
 }
 
-.App {
+body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
