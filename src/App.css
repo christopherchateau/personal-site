@@ -97,7 +97,7 @@ body {
 .challenges-wrapper {
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 0 10vw;
 }
 
@@ -196,6 +196,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: "Anton", sans-serif;
+  font-size: 5rem;
 }
 
 .proj-pp {
@@ -212,6 +213,7 @@ body {
 .cc-title {
   color: white;
   background: url("./images/wood.jpg");
+  font-size: 5rem;
   font-weight: bold;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -232,6 +234,7 @@ body {
 
 .proj-space-bunny {
   background: url("./images/space-bunny.gif") center no-repeat rgb(33, 33, 33);
+  background-size: 50%;
   color: #25e200;
   filter: saturate(2.2);
   font-family: "Press Start 2P", cursive;
@@ -241,16 +244,17 @@ body {
 }
 
 .proj-swapi-box {
-  background: url("./images/stars-bg.jpg") center no-repeat;
+  background: url("./images/stars-bg.jpg") center;
+  background-attachment: fixed;
   color: #fdde09;
   font-family: starWars;
-  font-size: 2.8rem;
+  font-size: 3.2rem;
 }
 
 .proj-byobe {
   background: url("./images/beer.gif") center no-repeat;
   background-size: cover;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 
@@ -466,21 +470,16 @@ body {
 }
 
 @media screen and (max-width: 1400px) {
-  .proj-wrapper,
-  .challenges-wrapper {
-    grid-template-columns: 1fr;
-  }
-
-  .proj-swapi-box {
-    background-attachment: fixed;
-  }
-
   .challenge-exercism {
     background-size: 60%;
   }
 }
 
 @media screen and (max-width: 1050px) {
+  .proj-space-bunny {
+    background-size: 60%;
+  }
+
   .spotify-playlists {
     grid-template-columns: repeat(3, 6.5rem);
     grid-template-rows: repeat(2, 6.5rem);
@@ -517,6 +516,14 @@ body {
     width: 100vw;
   }
 
+  .cc-title {
+    font-size: 3.5rem;
+  }
+
+  .proj-space-bunny {
+    background-size: 70%;
+  }
+
   .challenge-exercism {
     background-size: 80%;
   }
@@ -535,6 +542,10 @@ body {
   .proj,
   .challenge {
     font-size: 3rem;
+  }
+
+  .proj-space-bunny {
+    background-size: 100% auto;
   }
 
   .proj-byobe,
@@ -557,6 +568,10 @@ body {
   .name {
     font-size: 5rem;
   }
+
+  /* .proj-space-bunny {
+    background-size: auto;
+  } */
 }
 
 @media screen and (max-width: 575px) {
