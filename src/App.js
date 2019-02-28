@@ -51,13 +51,6 @@ class App extends Component {
               <i className="fab fa-linkedin" />
             </a>
             <a
-              href="https://www.codewars.com/users/christopherchateau"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fas fa-code" />
-            </a>
-            <a
               href="https://open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA"
               target="_blank"
               rel="noopener noreferrer"
@@ -129,7 +122,7 @@ class App extends Component {
             >
               <h4>palette picker</h4>
               <span className="proj-hover-text">
-              jQuery - express - knex - postgreSQL
+                jQuery - express - knex - postgreSQL
               </span>
             </a>
             <a
@@ -166,6 +159,26 @@ class App extends Component {
           <article className="challenges-title">
             <h2>coding challenges</h2>
           </article>
+          <div className="challenges-wrapper">
+            <a
+              href="https://exercism.io/profiles/christopherchateau"
+              className="proj-swapi-box proj"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4>SWAPi-Box $</h4>
+              <span className="proj-hover-text">reactJS - react router</span>
+            </a>
+            <a
+              href="https://www.codewars.com/users/christopherchateau"
+              className="proj-space-bunny proj"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4>SPACE BUNNY</h4>
+              <span className="proj-hover-text">javascript - html canvas</span>
+            </a>
+          </div>
         </section>
         <section className="me-section">
           <div className="headshot">
