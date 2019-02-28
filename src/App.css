@@ -88,9 +88,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: 200;
-  height: 6rem;
+  height: 7rem;
   justify-content: center;
-  margin: 60px 0;
+  margin: 50px 0;
 }
 
 .proj-wrapper,
@@ -102,7 +102,7 @@ body {
 }
 
 .challenges-wrapper {
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .proj,
