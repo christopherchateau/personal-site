@@ -265,7 +265,12 @@ body {
 }
 
 .challenge-exercism {
-  background: red;
+  background: #22323b;
+}
+
+.challenge-exercism {
+  background: url("./images/exercism.png") center no-repeat;
+  background-size: 100%;
 }
 
 .challenge-cw {
