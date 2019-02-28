@@ -277,12 +277,15 @@ body {
 
 .challenge-cw-interior {
   border: 4px solid #a42e23;
+  display: flex;
+  flex-direction: column;
   height: 80%;
+  justify-content: space-evenly;
   width: 90%;
 }
 
 .challenge-cw h4 {
-  margin: 30px 0 0 0;
+  margin: 0;
 }
 
 .cw-banner {
@@ -482,6 +485,10 @@ body {
     grid-template-columns: repeat(3, 6.5rem);
     grid-template-rows: repeat(2, 6.5rem);
   }
+
+  .challenge-exercism {
+    background-size: 70%;
+  }
 }
 
 @media screen and (max-width: 970px) {
@@ -510,6 +517,10 @@ body {
     width: 100vw;
   }
 
+  .challenge-exercism {
+    background-size: 80%;
+  }
+
   .spotify-playlists {
     grid-template-columns: repeat(3, 8.5rem);
     grid-template-rows: repeat(2, 8.5rem);
@@ -535,6 +546,10 @@ body {
   .proj-hover-text,
   .proj:hover .proj-hover-text {
     transform: scale(0);
+  }
+
+  .challenge-exercism {
+    background-size: 100%;
   }
 }
 
@@ -599,6 +614,10 @@ body {
   .proj-byobe,
   .proj-space-bunny {
     font-size: 1.5rem;
+  }
+
+  .cw-banner {
+    height: 15%;
   }
 }
 
