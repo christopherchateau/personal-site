@@ -269,7 +269,22 @@ body {
 }
 
 .challenge-cw {
-  background: yellow;
+  background: #303132;
+  font-family: "Montserrat", sans-serif;
+}
+
+.challenge-cw-interior {
+  border: 4px solid #a42e23;
+  height: 80%;
+  width: 90%;
+}
+
+.challenge-cw h4 {
+  margin: 30px 0 0 0;
+}
+
+.cw-banner {
+  width: 40%;
 }
 
 .me-section {
@@ -446,7 +461,8 @@ body {
 }
 
 @media screen and (max-width: 1400px) {
-  .proj-wrapper {
+  .proj-wrapper,
+  .challenges-wrapper {
     grid-template-columns: 1fr;
   }
 
@@ -499,7 +515,8 @@ body {
     background-size: auto 100%;
   }
 
-  .proj {
+  .proj,
+  .challenge {
     font-size: 3rem;
   }
 
@@ -535,7 +552,8 @@ body {
 }
 
 @media screen and (max-width: 520px) {
-  .proj:hover {
+  .proj:hover,
+  .challenge:hover {
     letter-spacing: 3px;
   }
 
@@ -559,7 +577,8 @@ body {
     justify-content: center;
   }
 
-  .proj {
+  .proj,
+  .challenge {
     font-size: 2.5rem;
   }
 
@@ -606,7 +625,8 @@ body {
     font-size: 3rem;
   }
 
-  .proj {
+  .proj,
+  .challenge {
     font-size: 2rem;
   }
 

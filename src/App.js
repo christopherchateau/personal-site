@@ -168,13 +168,20 @@ class App extends Component {
             >
               <h4>exercism</h4>
             </a>
+
             <a
               href="https://www.codewars.com/users/christopherchateau"
               className="challenge-cw challenge"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>code wars</h4>
+              <div className="challenge-cw-interior">
+                <h4>code wars</h4>
+                <img
+                  className="cw-banner"
+                  src="https://www.codewars.com/users/christopherchateau/badges/micro"
+                />
+              </div>
             </a>
           </div>
         </section>
