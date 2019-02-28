@@ -157,7 +157,7 @@ class App extends Component {
             </a>
           </div>
           <article className="challenges-title">
-            <h2>coding challenges</h2>
+            <h2>code challenges</h2>
           </article>
           <div className="challenges-wrapper">
             <a

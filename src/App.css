@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo");
 @import url("https://fonts.googleapis.com/css?family=Anton");
 @import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
@@ -265,17 +266,13 @@ body {
 }
 
 .challenge-exercism {
-  background: #22323b;
-}
-
-.challenge-exercism {
-  background: url("./images/exercism.png") center no-repeat;
+  background: url("./images/exercism.png") center no-repeat #0098a6;
   background-size: 100%;
 }
 
 .challenge-cw {
   background: #303132;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .challenge-cw-interior {
@@ -289,7 +286,7 @@ body {
 }
 
 .cw-banner {
-  width: 40%;
+  height: 20%;
 }
 
 .me-section {
@@ -473,6 +470,10 @@ body {
 
   .proj-swapi-box {
     background-attachment: fixed;
+  }
+
+  .challenge-exercism {
+    background-size: 60%;
   }
 }
 
