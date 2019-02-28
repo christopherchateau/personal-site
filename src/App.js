@@ -165,9 +165,7 @@ class App extends Component {
               className="challenge-exercism challenge"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              <h4>exercism</h4>
-            </a>
+            />
 
             <a
               href="https://www.codewars.com/users/christopherchateau"
