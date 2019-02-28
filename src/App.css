@@ -511,6 +511,9 @@ body {
 }
 
 @media screen and (max-width: 575px) {
+  .cc-title {
+    font-size: 2.5rem;
+  }
   .hello-text {
     font-size: 1.5rem;
   }
@@ -547,6 +550,10 @@ body {
 
   .proj {
     font-size: 2.5rem;
+  }
+
+  .cc-title {
+    font-size: 2rem;
   }
 
   .proj-swapi-box {
