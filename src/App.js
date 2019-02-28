@@ -72,6 +72,9 @@ class App extends Component {
           </div>
         </section>
         <section className="proj-section">
+          <article className="proj-title">
+            <h2>projects</h2>
+          </article>
           <div className="proj-wrapper">
             <a
               href="https://github.com/christopherchateau/summit-register-FE"
