@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f8a391392ddbe6b0ad74429584f0971a",
-    "url": "/personal-site/static/media/playlist-5.f8a39139.png"
+    "revision": "1f04bbf041e5530c0acb9c0347f1fe92",
+    "url": "/personal-site/static/media/playlist-1.1f04bbf0.png"
   },
   {
-    "revision": "96acad1646e71cbd749f",
-    "url": "/personal-site/static/css/main.1f39ded3.chunk.css"
+    "revision": "f518303f994ba742ca28",
+    "url": "/personal-site/static/css/main.4274aa28.chunk.css"
   },
   {
     "revision": "8d0e66c87fefe411a085",
@@ -24,6 +24,10 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/Starjedi.cc3019aa.ttf"
   },
   {
+    "revision": "1dceec5235ee9b11a9d16163e61297cf",
+    "url": "/personal-site/static/media/exercism.1dceec52.png"
+  },
+  {
     "revision": "cf58732602fa3442a33cb3df1e9fd400",
     "url": "/personal-site/static/media/wood.cf587326.jpg"
   },
@@ -40,12 +44,12 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-4.272588d4.png"
   },
   {
-    "revision": "1f04bbf041e5530c0acb9c0347f1fe92",
-    "url": "/personal-site/static/media/playlist-1.1f04bbf0.png"
+    "revision": "f518303f994ba742ca28",
+    "url": "/personal-site/static/js/main.f518303f.chunk.js"
   },
   {
-    "revision": "96acad1646e71cbd749f",
-    "url": "/personal-site/static/js/main.96acad16.chunk.js"
+    "revision": "f8a391392ddbe6b0ad74429584f0971a",
+    "url": "/personal-site/static/media/playlist-5.f8a39139.png"
   },
   {
     "revision": "c7867b7911f0d615dde3613afbf2ce1d",
@@ -84,7 +88,7 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/space-bunny.ef822d7d.gif"
   },
   {
-    "revision": "3eebed42a4ea22986740d33f46879620",
+    "revision": "fb872ad3b2b3404ebca693a94fb15a5e",
     "url": "/personal-site/index.html"
   }
 ];
