@@ -162,21 +162,19 @@ class App extends Component {
           <div className="challenges-wrapper">
             <a
               href="https://exercism.io/profiles/christopherchateau"
-              className="proj-swapi-box proj"
+              className="challenge-exercism challenge"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>SWAPi-Box $</h4>
-              <span className="proj-hover-text">reactJS - react router</span>
+              <h4>exercism</h4>
             </a>
             <a
               href="https://www.codewars.com/users/christopherchateau"
-              className="proj-space-bunny proj"
+              className="challenge-cw challenge"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>SPACE BUNNY</h4>
-              <span className="proj-hover-text">javascript - html canvas</span>
+              <h4>code wars</h4>
             </a>
           </div>
         </section>

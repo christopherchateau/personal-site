@@ -104,7 +104,8 @@ body {
   padding-bottom: 60px;
 }
 
-.proj {
+.proj,
+.challenge {
   align-items: center;
   color: white;
   display: flex;
@@ -116,7 +117,8 @@ body {
   transition: 0.5s ease-in-out;
 }
 
-.proj:hover {
+.proj:hover,
+.challenge:hover {
   cursor: pointer;
   letter-spacing: 5px;
   opacity: 0.85;
@@ -260,6 +262,14 @@ body {
 
 .proj-headcount .fa-react {
   color: rgb(92, 161, 184);
+}
+
+.challenge-exercism {
+  background: red;
+}
+
+.challenge-cw {
+  background: yellow;
 }
 
 .me-section {
