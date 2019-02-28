@@ -163,6 +163,9 @@ class App extends Component {
               <span className="proj-hover-text">javascript - html canvas</span>
             </a>
           </div>
+          <article className="challenges-title">
+            <h2>coding challenges</h2>
+          </article>
         </section>
         <section className="me-section">
           <div className="headshot">
