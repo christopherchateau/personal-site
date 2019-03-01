@@ -98,7 +98,7 @@ body {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: 1fr;
-  margin: 0 10vw;
+  margin: 0 15vw;
 }
 
 .challenges-wrapper {
@@ -271,7 +271,7 @@ body {
 
 .challenge-exercism {
   background: url("./images/exercism.png") center no-repeat #0098a6;
-  background-size: 60%;
+  background-size: 50%;
 }
 
 .challenge-cw {
@@ -467,6 +467,17 @@ body {
 .anchor-links {
   position: relative;
   top: 90vh;
+}
+
+@media screen and (max-width: 1400px) {
+  .proj-wrapper,
+  .challenges-wrapper {
+    margin: 0 10vw;
+  }
+
+  .challenge-exercism {
+    background-size: 60%;
+  }
 }
 
 @media screen and (max-width: 1050px) {
