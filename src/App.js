@@ -26,7 +26,7 @@ class App extends Component {
   };
 
   handleEmailClick = () => {
-    this.toggleEmailDisplay();
+    $(".e-mail-wrapper, .e-mail").addClass("e-mail-clicked");
     this.copyToClipboard();
   };
 
@@ -38,14 +38,8 @@ class App extends Component {
   };
 
   handleContactMouseLeave = () => {
-    this.toggleEmailDisplay();
+    $(".e-mail-wrapper, .e-mail").removeClass("e-mail-clicked");
     this.setState({ tooltipMessage: "copy to clipboard" });
-  };
-
-  toggleEmailDisplay = () => {
-    $(".e-mail").hasClass("e-mail-clicked")
-      ? $(".e-mail-wrapper, .e-mail").removeClass("e-mail-clicked")
-      : $(".e-mail-wrapper, .e-mail").addClass("e-mail-clicked");
   };
 
   render() {
