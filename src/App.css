@@ -302,7 +302,7 @@ body {
   grid-template-areas:
     "headshot spotify"
     "headshot contact";
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 70vh 30vh;
   height: 100vh;
   min-height: 600px;
