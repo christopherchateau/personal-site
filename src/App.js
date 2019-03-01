@@ -25,6 +25,11 @@ class App extends Component {
     this.setState({ offset: window.pageYOffset });
   };
 
+  handleEmailClick = () => {
+    this.toggleEmailDisplay();
+    this.copyToClipboard();
+  };
+
   copyToClipboard = () => {
     const copyText = this.refs.emailAddress;
     copyText.select();
@@ -33,7 +38,14 @@ class App extends Component {
   };
 
   handleContactMouseLeave = () => {
+    this.toggleEmailDisplay();
     this.setState({ tooltipMessage: "copy to clipboard" });
+  };
+
+  toggleEmailDisplay = () => {
+    $(".e-mail").hasClass("e-mail-clicked")
+      ? $(".e-mail-wrapper, .e-mail").removeClass("e-mail-clicked")
+      : $(".e-mail-wrapper, .e-mail").addClass("e-mail-clicked");
   };
 
   render() {
@@ -254,7 +266,7 @@ class App extends Component {
           <div
             className="contact"
             onMouseLeave={this.handleContactMouseLeave}
-            onClick={this.copyToClipboard}
+            onClick={this.handleEmailClick}
           >
             <span className="tooltip-text">{this.state.tooltipMessage}</span>
             <div className="e-mail-wrapper">
