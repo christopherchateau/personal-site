@@ -15,7 +15,6 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* width: 100vw; */
 }
 
 .name-section {
@@ -69,13 +68,12 @@ body {
 @keyframes in {
   0% {
     color: darkgrey;
-    letter-spacing: -30px;
+    letter-spacing: -35px;
     opacity: 0;
   }
   100% {
     color: white;
     letter-spacing: 8px;
-    opacity: 0.7;
   }
 }
 

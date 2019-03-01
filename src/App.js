@@ -5,12 +5,13 @@ import $ from "jquery";
 class App extends Component {
   constructor() {
     super();
-    this.state = { tooltipMessage: "copy to clipboard" };
+    this.state = { tooltipMessage: "copy to clipboard", offset: 0 };
   }
 
   componentDidMount = () => {
     $(window).scroll(() => {
       this.anchorLinks();
+      this.updatePageOffset();
     });
   };
 
@@ -18,6 +19,10 @@ class App extends Component {
     $(window).scrollTop() > window.innerHeight * 0.9 && window.innerWidth > 970
       ? $(".links").addClass("anchor-links")
       : $(".links").removeClass("anchor-links");
+  };
+
+  updatePageOffset = () => {
+    this.setState({ offset: window.pageYOffset });
   };
 
   copyToClipboard = () => {
@@ -58,7 +63,13 @@ class App extends Component {
               <i className="fab fa-spotify" />
             </a>
           </nav>
-          <div className="name">
+          <div
+            className="name"
+            style={{
+              bottom: this.state.offset / 3,
+              opacity: 0.6 - this.state.offset * 0.001
+            }}
+          >
             chris
             <br />
             chateau
