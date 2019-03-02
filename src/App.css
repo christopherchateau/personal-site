@@ -204,12 +204,11 @@ body {
 }
 
 .pp-title {
-  top: -26px;
   color: white;
   position: absolute;
   text-shadow: 2px 2px black;
+  top: -28px;
 }
-
 
 .color {
   height: 100%;
@@ -567,6 +566,10 @@ body {
     font-size: 3rem;
   }
 
+  .pp-title {
+    top: 12px;
+  }
+
   .proj-space-bunny {
     background-size: 100% auto;
   }
@@ -646,6 +649,10 @@ body {
     font-size: 2.5rem;
   }
 
+  .pp-title {
+    top: 28px;
+  }
+
   .cc-title {
     font-size: 2rem;
   }
@@ -668,6 +675,11 @@ body {
   .name {
     bottom: 6vh;
     font-size: 4rem;
+  }
+
+  .pp-title {
+    font-size: 2rem;
+    top: 60px;
   }
 
   .proj-cc {

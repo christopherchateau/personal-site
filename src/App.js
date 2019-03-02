@@ -57,7 +57,7 @@ class App extends Component {
 
     setTimeout(() => {
       this.generateColors();
-    }, 2000);
+    }, 4000);
   }
 
   generateRandomHexCode() {
