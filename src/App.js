@@ -30,6 +30,11 @@ class App extends Component {
     this.copyToClipboard();
   };
 
+  handleContactMouseLeave = () => {
+    $(".e-mail-wrapper, .e-mail").removeClass("e-mail-clicked");
+    this.setState({ tooltipMessage: "copy to clipboard" });
+  };
+
   copyToClipboard = () => {
     const copyText = this.refs.emailAddress;
     copyText.select();
@@ -37,10 +42,11 @@ class App extends Component {
     this.setState({ tooltipMessage: "you did it!" });
   };
 
-  handleContactMouseLeave = () => {
-    $(".e-mail-wrapper, .e-mail").removeClass("e-mail-clicked");
-    this.setState({ tooltipMessage: "copy to clipboard" });
-  };
+  generateRandomHexValue() {
+    const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "a", "b", "c", "d", "e", "f"];
+    const randomIndex = Math.floor(Math.random() * 16);
+    return values[randomIndex];
+  }
 
   render() {
     return (
