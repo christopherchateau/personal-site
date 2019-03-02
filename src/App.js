@@ -13,10 +13,11 @@ class App extends Component {
   }
 
   componentDidMount = () => {
+    this.generateColors();
+
     $(window).scroll(() => {
       this.anchorLinks();
       this.updatePageOffset();
-      this.generateColors();
     });
   };
 
@@ -53,6 +54,10 @@ class App extends Component {
       colors.push(this.generateRandomHexCode());
     }
     this.setState({ colors });
+
+    setTimeout(() => {
+      this.generateColors();
+    }, 2000);
   }
 
   generateRandomHexCode() {

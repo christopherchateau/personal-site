@@ -207,28 +207,8 @@ body {
   top: -26px;
   color: white;
   position: absolute;
-  opacity: 1;
 }
 
-.proj-pp-color-1 {
-  background: red;
-}
-
-.proj-pp-color-2 {
-  background: blue;
-}
-
-.proj-pp-color-3 {
-  background: orange;
-}
-
-.proj-pp-color-4 {
-  background: green;
-}
-
-.proj-pp-color-5 {
-  background: purple;
-}
 
 .color {
   height: 100%;
