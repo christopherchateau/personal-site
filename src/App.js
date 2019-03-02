@@ -5,7 +5,11 @@ import $ from "jquery";
 class App extends Component {
   constructor() {
     super();
-    this.state = { tooltipMessage: "copy to clipboard", offset: 0 };
+    this.state = {
+      colors: [],
+      offset: 0,
+      tooltipMessage: "copy to clipboard"
+    };
   }
 
   componentDidMount = () => {
@@ -46,6 +50,16 @@ class App extends Component {
     const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "a", "b", "c", "d", "e", "f"];
     const randomIndex = Math.floor(Math.random() * 16);
     return values[randomIndex];
+  }
+
+  displayColors() {
+    for (let i = 1; i <= 5; i++) {
+      $(`.proj-pp-color-${i}`).style(
+        "background-color",
+        this.state.colors[i - 1]
+      );
+      // $(`.proj-pp-color-${i}`).attr("hex-value", colors[i - 1]);
+    }
   }
 
   render() {
