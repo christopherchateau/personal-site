@@ -58,7 +58,7 @@ body {
   bottom: 0;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10rem;
+  font-size: 8.5rem;
   justify-content: flex-end;
   position: absolute;
   right: 10vw;
@@ -198,10 +198,21 @@ body {
 }
 
 .proj-pp {
-  background: linear-gradient(hsla(0, 0%, 0%, 0.15), rgba(0, 0, 0, 0)),
-    url("./images/pp.gif") center no-repeat white;
-  background-size: auto 100%;
   font-family: "Gloria Hallelujah", cursive;
+  opacity: 0.8;
+  position: relative;
+}
+
+.pp-title {
+  color: white;
+  position: absolute;
+  text-shadow: 2px 2px black;
+  top: -28px;
+}
+
+.color {
+  height: 100%;
+  width: 100%;
 }
 
 .proj-cc {
@@ -424,7 +435,7 @@ body {
   border: none;
   cursor: pointer;
   font-size: 1.4rem;
-  
+
   outline: none;
   width: 320px;
 }
@@ -555,6 +566,10 @@ body {
     font-size: 3rem;
   }
 
+  .pp-title {
+    top: 12px;
+  }
+
   .proj-space-bunny {
     background-size: 100% auto;
   }
@@ -634,6 +649,10 @@ body {
     font-size: 2.5rem;
   }
 
+  .pp-title {
+    top: 28px;
+  }
+
   .cc-title {
     font-size: 2rem;
   }
@@ -656,6 +675,11 @@ body {
   .name {
     bottom: 6vh;
     font-size: 4rem;
+  }
+
+  .pp-title {
+    font-size: 2rem;
+    top: 60px;
   }
 
   .proj-cc {

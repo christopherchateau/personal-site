@@ -5,10 +5,16 @@ import $ from "jquery";
 class App extends Component {
   constructor() {
     super();
-    this.state = { tooltipMessage: "copy to clipboard", offset: 0 };
+    this.state = {
+      colors: [],
+      offset: 0,
+      tooltipMessage: "copy to clipboard"
+    };
   }
 
   componentDidMount = () => {
+    this.generateColors();
+
     $(window).scroll(() => {
       this.anchorLinks();
       this.updatePageOffset();
@@ -30,6 +36,11 @@ class App extends Component {
     this.copyToClipboard();
   };
 
+  handleContactMouseLeave = () => {
+    $(".e-mail-wrapper, .e-mail").removeClass("e-mail-clicked");
+    this.setState({ tooltipMessage: "copy to clipboard" });
+  };
+
   copyToClipboard = () => {
     const copyText = this.refs.emailAddress;
     copyText.select();
@@ -37,10 +48,32 @@ class App extends Component {
     this.setState({ tooltipMessage: "you did it!" });
   };
 
-  handleContactMouseLeave = () => {
-    $(".e-mail-wrapper, .e-mail").removeClass("e-mail-clicked");
-    this.setState({ tooltipMessage: "copy to clipboard" });
-  };
+  generateColors() {
+    let colors = [];
+    while (colors.length < 5) {
+      colors.push(this.generateRandomHexCode());
+    }
+    this.setState({ colors });
+
+    setTimeout(() => {
+      this.generateColors();
+    }, 4000);
+  }
+
+  generateRandomHexCode() {
+    let hexCode = "#";
+
+    while (hexCode.length < 7) {
+      hexCode += this.generateRandomHexValue();
+    }
+    return hexCode;
+  }
+
+  generateRandomHexValue() {
+    const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "a", "b", "c", "d", "e", "f"];
+    const randomIndex = Math.floor(Math.random() * 16);
+    return values[randomIndex];
+  }
 
   render() {
     return (
@@ -133,14 +166,36 @@ class App extends Component {
             </a>
             <a
               href="https://github.com/christopherchateau/palette-picker"
-              className="proj-pp proj"
+              className="proj-pp"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>palette picker</h4>
-              <span className="proj-hover-text">
-                jQuery - express - knex - postgreSQL
-              </span>
+              <div className="proj-pp-colors-wrapper proj">
+                <h3 className="pp-title">palette picker</h3>
+                <span className="proj-hover-text">
+                  jQuery - express - knex - postgreSQL
+                </span>
+                <section
+                  className="proj-pp-color-1 color"
+                  style={{ background: `${this.state.colors[0]}` }}
+                />
+                <section
+                  className="proj-pp-color-2 color"
+                  style={{ background: `${this.state.colors[1]}` }}
+                />
+                <section
+                  className="proj-pp-color-3 color"
+                  style={{ background: `${this.state.colors[2]}` }}
+                />
+                <section
+                  className="proj-pp-color-4 color"
+                  style={{ background: `${this.state.colors[3]}` }}
+                />
+                <section
+                  className="proj-pp-color-5 color"
+                  style={{ background: `${this.state.colors[4]}` }}
+                />
+              </div>
             </a>
             <a
               href="https://github.com/christopherchateau/headcount2.0"
