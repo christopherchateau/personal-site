@@ -25,6 +25,11 @@ class App extends Component {
     this.setState({ offset: window.pageYOffset });
   };
 
+  handleEmailClick = () => {
+    $(".e-mail-wrapper, .e-mail").addClass("e-mail-clicked");
+    this.copyToClipboard();
+  };
+
   copyToClipboard = () => {
     const copyText = this.refs.emailAddress;
     copyText.select();
@@ -33,6 +38,7 @@ class App extends Component {
   };
 
   handleContactMouseLeave = () => {
+    $(".e-mail-wrapper, .e-mail").removeClass("e-mail-clicked");
     this.setState({ tooltipMessage: "copy to clipboard" });
   };
 
@@ -254,7 +260,7 @@ class App extends Component {
           <div
             className="contact"
             onMouseLeave={this.handleContactMouseLeave}
-            onClick={this.copyToClipboard}
+            onClick={this.handleEmailClick}
           >
             <span className="tooltip-text">{this.state.tooltipMessage}</span>
             <div className="e-mail-wrapper">
