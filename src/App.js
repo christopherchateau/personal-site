@@ -133,14 +133,21 @@ class App extends Component {
             </a>
             <a
               href="https://github.com/christopherchateau/palette-picker"
-              className="proj-pp proj"
+              className="proj-pp"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>palette picker</h4>
-              <span className="proj-hover-text">
-                jQuery - express - knex - postgreSQL
-              </span>
+              <div className="proj-pp-colors-wrapper proj">
+                <h3 className="pp-title">palette picker</h3>
+                <span className="proj-hover-text">
+                  jQuery - express - knex - postgreSQL
+                </span>
+                <section className="proj-pp-color-1 color" />
+                <section className="proj-pp-color-2 color" />
+                <section className="proj-pp-color-3 color" />
+                <section className="proj-pp-color-4 color" />
+                <section className="proj-pp-color-5 color" />
+              </div>
             </a>
             <a
               href="https://github.com/christopherchateau/headcount2.0"
