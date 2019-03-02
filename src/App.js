@@ -16,6 +16,7 @@ class App extends Component {
     $(window).scroll(() => {
       this.anchorLinks();
       this.updatePageOffset();
+      this.generateColors();
     });
   };
 
@@ -46,20 +47,27 @@ class App extends Component {
     this.setState({ tooltipMessage: "you did it!" });
   };
 
+  generateColors() {
+    let colors = [];
+    while (colors.length < 5) {
+      colors.push(this.generateRandomHexCode());
+    }
+    this.setState({ colors });
+  }
+
+  generateRandomHexCode() {
+    let hexCode = "#";
+
+    while (hexCode.length < 7) {
+      hexCode += this.generateRandomHexValue();
+    }
+    return hexCode;
+  }
+
   generateRandomHexValue() {
     const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "a", "b", "c", "d", "e", "f"];
     const randomIndex = Math.floor(Math.random() * 16);
     return values[randomIndex];
-  }
-
-  displayColors() {
-    for (let i = 1; i <= 5; i++) {
-      $(`.proj-pp-color-${i}`).style(
-        "background-color",
-        this.state.colors[i - 1]
-      );
-      // $(`.proj-pp-color-${i}`).attr("hex-value", colors[i - 1]);
-    }
   }
 
   render() {
@@ -162,11 +170,26 @@ class App extends Component {
                 <span className="proj-hover-text">
                   jQuery - express - knex - postgreSQL
                 </span>
-                <section className="proj-pp-color-1 color" />
-                <section className="proj-pp-color-2 color" />
-                <section className="proj-pp-color-3 color" />
-                <section className="proj-pp-color-4 color" />
-                <section className="proj-pp-color-5 color" />
+                <section
+                  className="proj-pp-color-1 color"
+                  style={{ background: `${this.state.colors[0]}` }}
+                />
+                <section
+                  className="proj-pp-color-2 color"
+                  style={{ background: `${this.state.colors[1]}` }}
+                />
+                <section
+                  className="proj-pp-color-3 color"
+                  style={{ background: `${this.state.colors[2]}` }}
+                />
+                <section
+                  className="proj-pp-color-4 color"
+                  style={{ background: `${this.state.colors[3]}` }}
+                />
+                <section
+                  className="proj-pp-color-5 color"
+                  style={{ background: `${this.state.colors[4]}` }}
+                />
               </div>
             </a>
             <a
