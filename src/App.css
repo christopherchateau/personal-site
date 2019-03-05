@@ -80,7 +80,7 @@ body {
 .proj-title,
 .challenges-title {
   align-items: center;
-  background: rgb(26, 26, 26, 0.9);
+  background: rgb(26, 26, 26);
   color: white;
   display: flex;
   font-family: "Montserrat", sans-serif;
@@ -89,6 +89,7 @@ body {
   height: 7rem;
   justify-content: center;
   margin: 50px 0;
+  opacity: 0.9;
 }
 
 .proj-wrapper,
