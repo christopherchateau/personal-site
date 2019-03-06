@@ -56,13 +56,15 @@ body {
 .name {
   animation: in 2.5s ease-out forwards;
   bottom: 0;
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 8.5rem;
-  justify-content: flex-end;
+  line-height: 0.2;
   position: absolute;
   right: 10vw;
   text-align: right;
+}
+
+.name h1 {
+  font-size: 8.5rem;
+  font-weight: 300;
 }
 
 @keyframes in {
@@ -75,6 +77,12 @@ body {
     color: white;
     letter-spacing: 8px;
   }
+}
+
+.blink {
+  background: white;
+  color: black;
+  opacity: 0.8;
 }
 
 .proj-title,
@@ -523,7 +531,7 @@ body {
     position: relative;
   }
 
-  .name {
+  .name h1 {
     font-size: 8rem;
   }
 }
@@ -592,7 +600,7 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-  .name {
+  .name h1 {
     font-size: 5rem;
   }
 
@@ -605,6 +613,7 @@ body {
   .cc-title {
     font-size: 2.5rem;
   }
+
   .hello-text {
     font-size: 1.5rem;
   }
@@ -674,7 +683,10 @@ body {
 
 @media screen and (max-width: 445px) {
   .name {
-    bottom: 6vh;
+    margin-bottom: 6vh;
+  }
+
+  .name h1 {
     font-size: 4rem;
   }
 
@@ -702,7 +714,7 @@ body {
 }
 
 @media screen and (max-width: 370px) {
-  .name {
+  .name h1 {
     font-size: 3rem;
   }
 

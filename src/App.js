@@ -14,6 +14,9 @@ class App extends Component {
 
   componentDidMount = () => {
     this.generateColors();
+    setTimeout(() => {
+      this.blinkingText();
+    }, 3500);
 
     $(window).scroll(() => {
       this.anchorLinks();
@@ -29,6 +32,16 @@ class App extends Component {
 
   updatePageOffset = () => {
     this.setState({ offset: window.pageYOffset });
+  };
+
+  blinkingText = () => {
+    $(".chateaU").addClass("blink");
+    setTimeout(() => {
+      $(".chateaU").removeClass("blink");
+    }, 1000);
+    setTimeout(() => {
+      this.blinkingText();
+    }, 2000);
   };
 
   handleEmailClick = () => {
@@ -109,9 +122,10 @@ class App extends Component {
               opacity: 0.6 - this.state.offset * 0.001
             }}
           >
-            chris
-            <br />
-            chateau
+            <h1>chris</h1>
+            <h1>
+              chatea<span className="chateaU">u</span>
+            </h1>
           </div>
         </section>
         <section className="proj-section">
