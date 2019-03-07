@@ -14,6 +14,7 @@ class App extends Component {
 
   componentDidMount = () => {
     this.generateColors();
+
     setTimeout(() => {
       this.blinkingText();
     }, 3500);
@@ -36,12 +37,13 @@ class App extends Component {
 
   blinkingText = () => {
     $(".chateaU").addClass("blink");
+
     setTimeout(() => {
       $(".chateaU").removeClass("blink");
-    }, 1000);
+    }, 900);
     setTimeout(() => {
       this.blinkingText();
-    }, 2000);
+    }, 1600);
   };
 
   handleEmailClick = () => {
