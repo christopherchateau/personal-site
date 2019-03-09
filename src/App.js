@@ -27,10 +27,26 @@ class App extends Component {
   };
 
   ipLookUp = () => {
-    $.getJSON('https://json.geoiplookup.io/api?callback=?', function(data) {
-      console.log(JSON.stringify(data, null, 2));
+    $.getJSON("https://json.geoiplookup.io/api?callback=?", data => {
+      this.postVisitor(data);
     });
-  }
+  };
+
+  postVisitor = async data => {
+    await fetch("http://localhost:3001/api/v1/visitor_tracker/new_visitor", {
+      method: "POST",
+      credentials: "same-origin",
+      body: JSON.stringify({
+        ip: data.ip,
+        org: data.org,
+        city: data.city,
+        region: data.region,
+        postal_code: data.postal_code,
+        country_code: data.country_code
+      }),
+      headers: { "Content-Type": "application/json" }
+    });
+  };
 
   anchorLinks = () => {
     $(window).scrollTop() > window.innerHeight * 0.9 && window.innerWidth > 970
