@@ -14,6 +14,7 @@ class App extends Component {
 
   componentDidMount = () => {
     this.generateColors();
+    this.ipLookUp();
 
     setTimeout(() => {
       this.blinkingText();
@@ -24,6 +25,12 @@ class App extends Component {
       this.updatePageOffset();
     });
   };
+
+  ipLookUp = () => {
+    $.getJSON('https://json.geoiplookup.io/api?callback=?', function(data) {
+      console.log(JSON.stringify(data, null, 2));
+    });
+  }
 
   anchorLinks = () => {
     $(window).scrollTop() > window.innerHeight * 0.9 && window.innerWidth > 970
