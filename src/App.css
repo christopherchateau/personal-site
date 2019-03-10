@@ -55,8 +55,7 @@ body {
 
 .name {
   animation: in 2.5s ease-out forwards;
-  bottom: 0;
-  line-height: 0.2;
+  line-height: 0.3;
   position: absolute;
   right: 10vw;
   text-align: right;

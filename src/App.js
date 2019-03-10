@@ -98,21 +98,18 @@ class App extends Component {
   }
 
   postVisitor = async data => {
-    await fetch(
-      "https://visitor-tracker-chrischateau.herokuapp.com/api/v1/visitor_tracker/new_visitor",
-      {
-        method: "POST",
-        credentials: "same-origin",
-        body: JSON.stringify({
-          ip: data.ip,
-          city: data.city,
-          region: data.region,
-          country_code: data.country_code,
-          time_stamp: Date.now()
-        }),
-        headers: { "Content-Type": "application/json" }
-      }
-    );
+    await fetch("http://localhost:3001/api/v1/visitor_tracker/new_visitor", {
+      method: "POST",
+      credentials: "same-origin",
+      body: JSON.stringify({
+        ip: data.ip || '',
+        city: data.city || '',
+        region: data.region || '',
+        country_code: data.country_code || '',
+        time_stamp: Date.now()
+      }),
+      headers: { "Content-Type": "application/json" }
+    });
   };
 
   render() {
