@@ -33,7 +33,7 @@ class App extends Component {
   };
 
   postVisitor = async data => {
-    await fetch("http://localhost:3001/api/v1/visitor_tracker/new_visitor", {
+    await fetch("https://visitor-tracker-chrischateau.herokuapp.com/api/v1/visitor_tracker/new_visitor", {
       method: "POST",
       credentials: "same-origin",
       body: JSON.stringify({
