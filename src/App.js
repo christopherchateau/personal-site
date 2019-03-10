@@ -105,11 +105,10 @@ class App extends Component {
         credentials: "same-origin",
         body: JSON.stringify({
           ip: data.ip,
-          org: data.org,
           city: data.city,
           region: data.region,
-          postal_code: data.postal_code,
-          country_code: data.country_code
+          country_code: data.country_code,
+          time_stamp: Date.now()
         }),
         headers: { "Content-Type": "application/json" }
       }
