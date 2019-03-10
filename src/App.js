@@ -32,22 +32,6 @@ class App extends Component {
     });
   };
 
-  postVisitor = async data => {
-    await fetch("https://visitor-tracker-chrischateau.herokuapp.com/api/v1/visitor_tracker/new_visitor", {
-      method: "POST",
-      credentials: "same-origin",
-      body: JSON.stringify({
-        ip: data.ip,
-        org: data.org,
-        city: data.city,
-        region: data.region,
-        postal_code: data.postal_code,
-        country_code: data.country_code
-      }),
-      headers: { "Content-Type": "application/json" }
-    });
-  };
-
   anchorLinks = () => {
     $(window).scrollTop() > window.innerHeight * 0.9 && window.innerWidth > 970
       ? $(".links").addClass("anchor-links")
@@ -112,6 +96,25 @@ class App extends Component {
     const randomIndex = Math.floor(Math.random() * 16);
     return values[randomIndex];
   }
+
+  postVisitor = async data => {
+    await fetch(
+      "https://visitor-tracker-chrischateau.herokuapp.com/api/v1/visitor_tracker/new_visitor",
+      {
+        method: "POST",
+        credentials: "same-origin",
+        body: JSON.stringify({
+          ip: data.ip,
+          org: data.org,
+          city: data.city,
+          region: data.region,
+          postal_code: data.postal_code,
+          country_code: data.country_code
+        }),
+        headers: { "Content-Type": "application/json" }
+      }
+    );
+  };
 
   render() {
     return (
