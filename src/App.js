@@ -14,7 +14,7 @@ class App extends Component {
 
   componentDidMount = () => {
     this.generateColors();
-    this.ipLookUp();
+    this.postVisitor();
 
     setTimeout(() => {
       this.blinkingText();
@@ -23,12 +23,6 @@ class App extends Component {
     $(window).scroll(() => {
       this.anchorLinks();
       this.updatePageOffset();
-    });
-  };
-
-  ipLookUp = () => {
-    $.getJSON("https://json.geoiplookup.io/api?callback=?", data => {
-      this.postVisitor(data);
     });
   };
 
@@ -100,12 +94,8 @@ class App extends Component {
   postVisitor = async data => {
     await fetch("http://localhost:3001/api/v1/visitor_tracker/new_visitor", {
       method: "POST",
-      credentials: "same-origin",
+      credentials: "include",
       body: JSON.stringify({
-        ip: data.ip || '',
-        city: data.city || '',
-        region: data.region || '',
-        country_code: data.country_code || '',
         time_stamp: Date.now()
       }),
       headers: { "Content-Type": "application/json" }
