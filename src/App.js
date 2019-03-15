@@ -14,7 +14,6 @@ class App extends Component {
 
   componentDidMount = () => {
     this.generateColors();
-    this.postVisitor();
 
     setTimeout(() => {
       this.blinkingText();
@@ -90,17 +89,6 @@ class App extends Component {
     const randomIndex = Math.floor(Math.random() * 16);
     return values[randomIndex];
   }
-
-  postVisitor = async data => {
-    await fetch("http://localhost:3001/api/v1/visitor_tracker/new_visitor", {
-      method: "POST",
-      credentials: "include",
-      body: JSON.stringify({
-        time_stamp: Date.now()
-      }),
-      headers: { "Content-Type": "application/json" }
-    });
-  };
 
   render() {
     return (
