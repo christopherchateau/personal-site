@@ -550,6 +550,11 @@ body {
     font-size: 3.5rem;
   }
 
+  .pp-title {
+    font-size: 3.5rem;
+    top: 12px;
+  }
+
   .proj-space-bunny {
     background-size: 70%;
   }
@@ -575,7 +580,8 @@ body {
   }
 
   .pp-title {
-    top: 12px;
+    font-size: 2.5rem;
+    top: 42px;
   }
 
   .proj-space-bunny {
