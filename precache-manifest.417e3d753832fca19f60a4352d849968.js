@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-5.f8a39139.png"
   },
   {
-    "revision": "2ba913b12224419ec29b",
-    "url": "/personal-site/static/css/main.5360a738.chunk.css"
+    "revision": "ce646bf3e96238deb926",
+    "url": "/personal-site/static/css/main.60f89011.chunk.css"
   },
   {
     "revision": "8d0e66c87fefe411a085",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/personal-site/static/js/runtime~main.60ebdd6b.js"
   },
   {
-    "revision": "1dceec5235ee9b11a9d16163e61297cf",
-    "url": "/personal-site/static/media/exercism.1dceec52.png"
-  },
-  {
     "revision": "cc3019aa6439ef893839b8a0d6d0391d",
     "url": "/personal-site/static/media/Starjedi.cc3019aa.ttf"
+  },
+  {
+    "revision": "1dceec5235ee9b11a9d16163e61297cf",
+    "url": "/personal-site/static/media/exercism.1dceec52.png"
   },
   {
     "revision": "cf58732602fa3442a33cb3df1e9fd400",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-1.1f04bbf0.png"
   },
   {
-    "revision": "2ba913b12224419ec29b",
-    "url": "/personal-site/static/js/main.2ba913b1.chunk.js"
+    "revision": "ce646bf3e96238deb926",
+    "url": "/personal-site/static/js/main.ce646bf3.chunk.js"
   },
   {
     "revision": "c7867b7911f0d615dde3613afbf2ce1d",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/space-bunny.ef822d7d.gif"
   },
   {
-    "revision": "87b2e597f4a623929a0b7021486e24a5",
+    "revision": "6dff1c8af5b7b9b78e3e218a2e1ad681",
     "url": "/personal-site/index.html"
   }
 ];
