@@ -155,8 +155,9 @@ body {
   text-shadow: 1px 1px black;
 }
 
+.proj-byobe .proj-hover-text ,
 .proj-marvelous .proj-hover-text {
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px rgb(99, 99, 99);
 }
 
 .proj-cc .proj-hover-text {
