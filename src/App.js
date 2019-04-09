@@ -194,7 +194,7 @@ class App extends Component {
               <span className="proj-hover-text">
                 reactJS - react router - redux
               </span>
-            </a>fa
+            </a>
             <a
               href="https://github.com/christopherchateau/palette-picker"
               className="proj-pp"
