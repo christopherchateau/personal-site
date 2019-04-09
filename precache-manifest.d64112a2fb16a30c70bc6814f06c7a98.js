@@ -4,16 +4,20 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-5.f8a39139.png"
   },
   {
-    "revision": "1dd0fa8c1b9348aa526a",
-    "url": "/personal-site/static/css/main.1fd06c03.chunk.css"
+    "revision": "f63368429072105c8230",
+    "url": "/personal-site/static/css/main.fd59b251.chunk.css"
   },
   {
-    "revision": "8d0e66c87fefe411a085",
-    "url": "/personal-site/static/js/1.8d0e66c8.chunk.js"
+    "revision": "6a3fd3a239fbe7b005dc",
+    "url": "/personal-site/static/js/1.6a3fd3a2.chunk.js"
   },
   {
     "revision": "60ebdd6b1870a2709c31",
     "url": "/personal-site/static/js/runtime~main.60ebdd6b.js"
+  },
+  {
+    "revision": "06ac701fde42af099e848bcdb17f833d",
+    "url": "/personal-site/static/media/bball.06ac701f.png"
   },
   {
     "revision": "1dceec5235ee9b11a9d16163e61297cf",
@@ -22,10 +26,6 @@ self.__precacheManifest = [
   {
     "revision": "cf58732602fa3442a33cb3df1e9fd400",
     "url": "/personal-site/static/media/wood.cf587326.jpg"
-  },
-  {
-    "revision": "cc3019aa6439ef893839b8a0d6d0391d",
-    "url": "/personal-site/static/media/Starjedi.cc3019aa.ttf"
   },
   {
     "revision": "c0833e01ebcf90ed437a02f31910ece3",
@@ -40,12 +40,16 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-4.272588d4.png"
   },
   {
+    "revision": "cc3019aa6439ef893839b8a0d6d0391d",
+    "url": "/personal-site/static/media/Starjedi.cc3019aa.ttf"
+  },
+  {
     "revision": "1f04bbf041e5530c0acb9c0347f1fe92",
     "url": "/personal-site/static/media/playlist-1.1f04bbf0.png"
   },
   {
-    "revision": "1dd0fa8c1b9348aa526a",
-    "url": "/personal-site/static/js/main.1dd0fa8c.chunk.js"
+    "revision": "f63368429072105c8230",
+    "url": "/personal-site/static/js/main.f6336842.chunk.js"
   },
   {
     "revision": "c7867b7911f0d615dde3613afbf2ce1d",
@@ -62,6 +66,10 @@ self.__precacheManifest = [
   {
     "revision": "9800a35fb3e84fd10aab74dd9d444562",
     "url": "/personal-site/static/media/marvelous.9800a35f.jpg"
+  },
+  {
+    "revision": "58e6fc112b41c0948b77a1fdad30e50c",
+    "url": "/personal-site/static/media/court.58e6fc11.jpg"
   },
   {
     "revision": "911e6b0c467b319f8e6a0ca2d513f43f",
@@ -84,7 +92,7 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/space-bunny.ef822d7d.gif"
   },
   {
-    "revision": "3c31ce9a0df80cd5e024c81216c73d00",
+    "revision": "5905b6fbb5f34c516576337e1e75df93",
     "url": "/personal-site/index.html"
   }
 ];
