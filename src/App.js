@@ -170,7 +170,7 @@ class App extends Component {
                 <img className="bball-img" src={bballImg} alt="O" />T LEAGUE
               </h4>
               <span className="proj-hover-text">
-                reactJS - express js - knex - postgreSQL
+                reactJS - express - knex - postgreSQL
               </span>
             </a>
             <a
@@ -194,7 +194,7 @@ class App extends Component {
               <span className="proj-hover-text">
                 reactJS - react router - redux
               </span>
-            </a>
+            </a>fa
             <a
               href="https://github.com/christopherchateau/palette-picker"
               className="proj-pp"
