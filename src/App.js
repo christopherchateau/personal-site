@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import bballImg from "../src/images/bball.png";
 import "./App.css";
 import $ from "jquery";
 
@@ -164,7 +165,10 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>LONG SHOT LEAGUE</h4>
+              <h4>
+                LONG SH
+                <img className="bball-img" src={bballImg} alt="O" />T LEAGUE
+              </h4>
               <span className="proj-hover-text">
                 reactJS - express js - knex - postgreSQL
               </span>
