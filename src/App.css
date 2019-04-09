@@ -209,6 +209,14 @@ body {
   font-size: 5rem;
 }
 
+.proj-long-shot-league {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url("./images/court.jpg") bottom no-repeat;
+  color: white;
+  font-family: "Roboto", sans-serif;
+
+}
+
 .proj-pp {
   font-family: "Gloria Hallelujah", cursive;
   opacity: 0.65;

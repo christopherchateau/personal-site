@@ -159,6 +159,17 @@ class App extends Component {
               </span>
             </a>
             <a
+              href="https://github.com/christopherchateau/long-shot-league"
+              className="proj-long-shot-league proj"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4>LONG SHOT LEAGUE</h4>
+              <span className="proj-hover-text">
+                reactJS - express js - knex - postgreSQL
+              </span>
+            </a>
+            <a
               href="https://github.com/christopherchateau/movie-tracker"
               className="proj-cc proj"
               target="_blank"
