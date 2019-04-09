@@ -212,7 +212,7 @@ body {
 
 .proj-long-shot-league {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-  url("./images/court.jpg") bottom no-repeat;
+    url("./images/court.jpg") bottom no-repeat;
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -551,6 +551,15 @@ body {
   .name h1 {
     font-size: 8rem;
   }
+
+  .proj-long-shot-league {
+    font-size: 3rem;
+  }
+
+  .bball-img {
+    height: 45px;
+    top: 4px;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -595,6 +604,14 @@ body {
   .proj,
   .challenge {
     font-size: 3rem;
+  }
+
+  .proj-long-shot-league {
+    font-size: 2rem;
+  }
+
+  .bball-img {
+    height: 30px;
   }
 
   .pp-title {
@@ -682,6 +699,15 @@ body {
     font-size: 2.5rem;
   }
 
+  .proj-long-shot-league {
+    font-size: 1.5rem;
+  }
+
+  .bball-img {
+    height: 20px;
+    top: 1px;
+  }
+
   .pp-title {
     top: 28px;
   }
@@ -749,6 +775,14 @@ body {
   .proj,
   .challenge {
     font-size: 2rem;
+  }
+
+  .proj-long-shot-league {
+    font-size: 1.2rem;
+  }
+
+  .bball-img {
+    height: 15px;
   }
 
   .proj-swapi-box {
