@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-5.f8a39139.png"
   },
   {
-    "revision": "7b08289abbf8fec92e89",
-    "url": "/personal-site/static/css/main.1ce1e8b4.chunk.css"
+    "revision": "1dd0fa8c1b9348aa526a",
+    "url": "/personal-site/static/css/main.1fd06c03.chunk.css"
   },
   {
     "revision": "8d0e66c87fefe411a085",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/exercism.1dceec52.png"
   },
   {
-    "revision": "cc3019aa6439ef893839b8a0d6d0391d",
-    "url": "/personal-site/static/media/Starjedi.cc3019aa.ttf"
-  },
-  {
     "revision": "cf58732602fa3442a33cb3df1e9fd400",
     "url": "/personal-site/static/media/wood.cf587326.jpg"
+  },
+  {
+    "revision": "cc3019aa6439ef893839b8a0d6d0391d",
+    "url": "/personal-site/static/media/Starjedi.cc3019aa.ttf"
   },
   {
     "revision": "c0833e01ebcf90ed437a02f31910ece3",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-1.1f04bbf0.png"
   },
   {
-    "revision": "7b08289abbf8fec92e89",
-    "url": "/personal-site/static/js/main.7b08289a.chunk.js"
+    "revision": "1dd0fa8c1b9348aa526a",
+    "url": "/personal-site/static/js/main.1dd0fa8c.chunk.js"
   },
   {
     "revision": "c7867b7911f0d615dde3613afbf2ce1d",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/space-bunny.ef822d7d.gif"
   },
   {
-    "revision": "cf086e3d1c789a54229a2ecd38b1f458",
+    "revision": "3c31ce9a0df80cd5e024c81216c73d00",
     "url": "/personal-site/index.html"
   }
 ];
