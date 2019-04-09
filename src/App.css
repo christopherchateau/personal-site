@@ -155,7 +155,8 @@ body {
 }
 
 .proj-byobe .proj-hover-text,
-.proj-marvelous .proj-hover-text {
+.proj-marvelous .proj-hover-text,
+.proj-long-shot-league .proj-hover-text {
   text-shadow: 1px 1px rgb(99, 99, 99);
 }
 
