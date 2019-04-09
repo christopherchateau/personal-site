@@ -128,7 +128,6 @@ body {
 .challenge:hover {
   cursor: pointer;
   letter-spacing: 5px;
-  opacity: 0.85;
   text-align: center;
   transition: all 0.5s ease-in-out;
   transform: scale(1.15);
@@ -155,7 +154,7 @@ body {
   text-shadow: 1px 1px black;
 }
 
-.proj-byobe .proj-hover-text ,
+.proj-byobe .proj-hover-text,
 .proj-marvelous .proj-hover-text {
   text-shadow: 1px 1px rgb(99, 99, 99);
 }
