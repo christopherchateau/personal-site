@@ -174,17 +174,6 @@ class App extends Component {
               </span>
             </a>
             <a
-              href="https://github.com/christopherchateau/movie-tracker"
-              className="proj-cc proj"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h4 className="cc-title">coenCollection</h4>
-              <span className="proj-hover-text">
-                reactJS - react router - redux
-              </span>
-            </a>
-            <a
               href="https://github.com/christopherchateau/BuildYourOwnBackend"
               className="proj-byobe proj"
               target="_blank"
@@ -193,6 +182,17 @@ class App extends Component {
               <p>Cerebral Brewing API</p>
               <span className="proj-hover-text">
                 javascript - express - knex - postgreSQL
+              </span>
+            </a>
+            <a
+              href="https://github.com/christopherchateau/movie-tracker"
+              className="proj-cc proj"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h4 className="cc-title">coenCollection</h4>
+              <span className="proj-hover-text">
+                reactJS - react router - redux
               </span>
             </a>
             <a
