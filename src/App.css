@@ -19,12 +19,12 @@ body {
 
 .name-section {
   background: url("../src/images/atitlan.jpg") center no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   display: grid;
   grid-template-rows: 60px 1fr;
-  min-height: 600px;
   height: 100vh;
+  min-height: 600px;
+  position: relative;
 }
 
 .links {

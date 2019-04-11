@@ -94,7 +94,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <section className="name-section">
+        <section
+          className="name-section"
+          style={{
+            backgroundPositionY: this.state.offset / 2
+          }}
+        >
           <nav className="links">
             <a
               href="https://github.com/christopherchateau"
