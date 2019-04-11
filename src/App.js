@@ -150,7 +150,7 @@ class App extends Component {
               <h4>summit register</h4>
               <span className="proj-hover-text">
                 reactJS
-                <i class="fab fa-react" />
+                <i className="fab fa-react" />
               </span>
             </a>
             <a
@@ -242,7 +242,7 @@ class App extends Component {
               <h4>HEADCOUNT</h4>
               <span className="proj-hover-text">
                 reactJS
-                <i class="fab fa-react" />
+                <i className="fab fa-react" />
               </span>
             </a>
             <a

@@ -55,6 +55,7 @@ body {
 
 .name {
   animation: in 2.5s ease-out forwards;
+  margin: 0;
   line-height: 0.3;
   position: absolute;
   right: 10vw;
@@ -62,7 +63,7 @@ body {
 }
 
 .name h1 {
-  font-size: 8.5rem;
+  font-size: 7.5rem;
   font-weight: 300;
 }
 
@@ -732,7 +733,7 @@ body {
 
 @media screen and (max-width: 445px) {
   .name {
-    margin-bottom: 6vh;
+    margin-bottom: 12vh;
   }
 
   .name h1 {
