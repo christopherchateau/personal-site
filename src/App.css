@@ -232,9 +232,9 @@ body {
 
 .pp-title {
   color: white;
+  margin: 0;
   position: absolute;
   text-shadow: 2px 2px black;
-  top: -28px;
 }
 
 .color {
@@ -580,7 +580,6 @@ body {
 
   .pp-title {
     font-size: 3.5rem;
-    top: 12px;
   }
 
   .proj-space-bunny {
@@ -617,7 +616,6 @@ body {
 
   .pp-title {
     font-size: 2.5rem;
-    top: 42px;
   }
 
   .proj-space-bunny {
@@ -698,19 +696,25 @@ body {
   .proj,
   .challenge {
     font-size: 2.5rem;
+    height: 10rem;
+  }
+
+  .proj-wrapper,
+  .challenges-wrapper {
+    margin: 0;
   }
 
   .proj-long-shot-league {
     font-size: 1.5rem;
   }
 
+  .proj-summit-register {
+    background-size: auto;
+  }
+
   .bball-img {
     height: 20px;
     top: 1px;
-  }
-
-  .pp-title {
-    top: 28px;
   }
 
   .cc-title {
@@ -742,7 +746,6 @@ body {
 
   .pp-title {
     font-size: 2rem;
-    top: 60px;
   }
 
   .proj-cc {
