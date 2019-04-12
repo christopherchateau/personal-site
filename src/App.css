@@ -672,6 +672,11 @@ body {
     background-size: auto 100%;
   }
 
+  .proj-marvelous {
+    background-attachment: unset;
+    background-size: auto;
+  }
+
   .spotify-playlists {
     grid-template-columns: repeat(3, 5.5rem);
     grid-template-rows: repeat(2, 5.5rem);
