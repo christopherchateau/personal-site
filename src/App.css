@@ -653,6 +653,10 @@ body {
     font-size: 2.5rem;
   }
 
+  .proj-headcount {
+    background-size: 150%;
+  }
+
   .hello-text {
     font-size: 1.5rem;
   }
