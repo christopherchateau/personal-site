@@ -696,12 +696,12 @@ body {
   .proj,
   .challenge {
     font-size: 2.5rem;
-    height: 10rem;
+    height: 12rem;
   }
 
   .proj-wrapper,
   .challenges-wrapper {
-    margin: 0;
+    margin: 0 10vw;
   }
 
   .proj-long-shot-league {
