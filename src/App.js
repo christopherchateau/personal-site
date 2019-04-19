@@ -97,7 +97,7 @@ class App extends Component {
         <section
           className="name-section"
           style={{
-            backgroundPositionY: this.state.offset / 1.8 
+            backgroundPositionY: this.state.offset / 1.8
           }}
         >
           <nav className="links">
