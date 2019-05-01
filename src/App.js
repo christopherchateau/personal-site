@@ -18,7 +18,7 @@ class App extends Component {
 
     setTimeout(() => {
       this.displayAtitlanBackground();
-    }, 1500);
+    }, 2000);
 
     setTimeout(() => {
       this.blinkingText();
