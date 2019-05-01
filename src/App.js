@@ -115,21 +115,21 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-github" />
+              <i className="fab slide fa-github" />
             </a>
             <a
               href="https://linkedin.com/in/christopherchateau/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin" />
+              <i className="fab slide fa-linkedin" />
             </a>
             <a
               href="https://open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-spotify" />
+              <i className="fab slide fa-spotify" />
             </a>
           </nav>
           <div

@@ -36,13 +36,9 @@ body {
 @keyframes bg {
   0% {
     opacity: 0;
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
   }
   100% {
     opacity: 1;
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
   }
 }
 
