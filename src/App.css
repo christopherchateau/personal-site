@@ -285,7 +285,6 @@ body {
 
 .proj-space-bunny {
   background: url("./images/space-bunny.gif") center no-repeat rgb(33, 33, 33);
-  background-position-y: -200px;
   background-size: 50%;
   color: #25e200;
   filter: saturate(2.2);

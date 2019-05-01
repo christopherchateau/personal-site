@@ -22,7 +22,7 @@ class App extends Component {
 
     setTimeout(() => {
       this.blinkingText();
-    }, 3500);
+    }, 4500);
 
     $(window).scroll(() => {
       this.anchorLinks();
