@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f8a391392ddbe6b0ad74429584f0971a",
-    "url": "/personal-site/static/media/playlist-5.f8a39139.png"
+    "revision": "cc3019aa6439ef893839b8a0d6d0391d",
+    "url": "/personal-site/static/media/Starjedi.cc3019aa.ttf"
   },
   {
-    "revision": "623c7d1214141ea1cce4",
-    "url": "/personal-site/static/css/main.df92b338.chunk.css"
+    "revision": "9100a044fc65af5a2ddd",
+    "url": "/personal-site/static/css/main.b4e89d8d.chunk.css"
   },
   {
     "revision": "6a3fd3a239fbe7b005dc",
@@ -18,6 +18,14 @@ self.__precacheManifest = [
   {
     "revision": "06ac701fde42af099e848bcdb17f833d",
     "url": "/personal-site/static/media/bball.06ac701f.png"
+  },
+  {
+    "revision": "602cbdb29cf36456fe9e525cef54e29d",
+    "url": "/personal-site/static/media/playlist-6.602cbdb2.jpg"
+  },
+  {
+    "revision": "1f99f338922076d61f79e460d8ac3e2b",
+    "url": "/personal-site/static/media/playlist-5.1f99f338.jpg"
   },
   {
     "revision": "1dceec5235ee9b11a9d16163e61297cf",
@@ -40,20 +48,12 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-4.272588d4.png"
   },
   {
-    "revision": "cc3019aa6439ef893839b8a0d6d0391d",
-    "url": "/personal-site/static/media/Starjedi.cc3019aa.ttf"
+    "revision": "9100a044fc65af5a2ddd",
+    "url": "/personal-site/static/js/main.9100a044.chunk.js"
   },
   {
     "revision": "1f04bbf041e5530c0acb9c0347f1fe92",
     "url": "/personal-site/static/media/playlist-1.1f04bbf0.png"
-  },
-  {
-    "revision": "623c7d1214141ea1cce4",
-    "url": "/personal-site/static/js/main.623c7d12.chunk.js"
-  },
-  {
-    "revision": "c7867b7911f0d615dde3613afbf2ce1d",
-    "url": "/personal-site/static/media/playlist-6.c7867b79.png"
   },
   {
     "revision": "f57c3e0c58cffb967ece918d74bf0fc7",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/playlist-2.3386ff4c.png"
   },
   {
-    "revision": "58e6fc112b41c0948b77a1fdad30e50c",
-    "url": "/personal-site/static/media/court.58e6fc11.jpg"
-  },
-  {
     "revision": "9800a35fb3e84fd10aab74dd9d444562",
     "url": "/personal-site/static/media/marvelous.9800a35f.jpg"
+  },
+  {
+    "revision": "58e6fc112b41c0948b77a1fdad30e50c",
+    "url": "/personal-site/static/media/court.58e6fc11.jpg"
   },
   {
     "revision": "911e6b0c467b319f8e6a0ca2d513f43f",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/personal-site/static/media/space-bunny.ef822d7d.gif"
   },
   {
-    "revision": "3117c75c5fdf59e206ae3118d4a9d017",
+    "revision": "668fc0606f131e7994c399be38428e09",
     "url": "/personal-site/index.html"
   }
 ];
