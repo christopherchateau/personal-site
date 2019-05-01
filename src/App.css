@@ -729,7 +729,7 @@ body {
 
   .proj-wrapper,
   .challenges-wrapper {
-    margin: 0 10vw;
+    margin: 0 2vw;
   }
 
   .proj-long-shot-league {
@@ -770,6 +770,11 @@ body {
 
   .name h1 {
     font-size: 4rem;
+  }
+
+  .proj,
+  .challenge {
+    height: 150px;
   }
 
   .pp-title {
