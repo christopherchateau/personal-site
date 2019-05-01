@@ -28,7 +28,7 @@ body {
 }
 
 .name-section-atitlan-bg {
-  animation: bg 1.5s ease-out forwards;
+  animation: bg 3s ease-out forwards;
   background: url("../src/images/atitlan.jpg") center no-repeat;
   background-size: cover;
 }
