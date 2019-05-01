@@ -344,13 +344,13 @@ class App extends Component {
                 rel="noopener noreferrer"
               />
               <a
-                href="https://open.spotify.com/playlist/37i9dQZF1DWZMCPjHG57gq"
+                href="https://open.spotify.com/album/4anxEzh8xEKSPXKHGWiFue"
                 className="playlist playlist-5"
                 target="_blank"
                 rel="noopener noreferrer"
               />
               <a
-                href="https://open.spotify.com/playlist/37i9dQZF1DXbSbnqxMTGx9"
+                href="https://open.spotify.com/album/0YF8PfcGbsKg5IaFyPnlyY"
                 className="playlist playlist-6"
                 target="_blank"
                 rel="noopener noreferrer"
