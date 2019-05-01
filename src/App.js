@@ -17,6 +17,10 @@ class App extends Component {
     this.generateColors();
 
     setTimeout(() => {
+      this.displayAtitlanBackground();
+    }, 1500);
+
+    setTimeout(() => {
       this.blinkingText();
     }, 3500);
 
@@ -24,6 +28,11 @@ class App extends Component {
       this.anchorLinks();
       this.updatePageOffset();
     });
+  };
+
+  displayAtitlanBackground = () => {
+    $(".name-section").addClass("name-section-atitlan-bg");
+    $(".links").removeClass("hidden");
   };
 
   anchorLinks = () => {
@@ -100,7 +109,7 @@ class App extends Component {
             backgroundPositionY: this.state.offset / 1.8
           }}
         >
-          <nav className="links">
+          <nav className="links hidden">
             <a
               href="https://github.com/christopherchateau"
               target="_blank"

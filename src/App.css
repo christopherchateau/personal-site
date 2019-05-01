@@ -18,13 +18,28 @@ body {
 }
 
 .name-section {
-  background: url("../src/images/atitlan.jpg") center no-repeat;
+  background: white;
   background-size: cover;
   display: grid;
   grid-template-rows: 60px 1fr;
   height: 100vh;
   min-height: 600px;
   position: relative;
+}
+
+.name-section-atitlan-bg {
+  animation: bg 1.5s ease-out forwards;
+  background: url("../src/images/atitlan.jpg") center no-repeat;
+  background-size: cover;
+}
+
+@keyframes bg {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .links {
@@ -54,7 +69,7 @@ body {
 }
 
 .name {
-  animation: in 2.5s ease-out forwards;
+  animation: in 3.5s ease-out forwards;
   margin: 0;
   line-height: 0.3;
   position: absolute;
@@ -69,9 +84,9 @@ body {
 
 @keyframes in {
   0% {
-    color: darkgrey;
+    color: black;
     letter-spacing: -35px;
-    opacity: 0;
+    opacity: 0.7;
   }
   100% {
     color: white;
@@ -270,6 +285,7 @@ body {
 
 .proj-space-bunny {
   background: url("./images/space-bunny.gif") center no-repeat rgb(33, 33, 33);
+  background-position-y: -200px;
   background-size: 50%;
   color: #25e200;
   filter: saturate(2.2);
@@ -511,6 +527,10 @@ body {
 .anchor-links {
   position: relative;
   top: 90vh;
+}
+
+.hidden {
+  display: none;
 }
 
 @media screen and (max-width: 1400px) {
@@ -783,6 +803,7 @@ body {
   .proj-title,
   .challenges-title {
     font-size: 1.2rem;
+    height: 5rem;
   }
 
   .proj,
