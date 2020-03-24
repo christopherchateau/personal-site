@@ -3,18 +3,17 @@ import bballImg from '../src/images/bball.png'
 import './App.css'
 import $ from 'jquery'
 
-class App extends Component {
-	constructor() {
-		super()
-		this.state = {
-			// loaded,
-			colors: [],
-			offset: 0,
-			tooltipMessage: 'copy to clipboard',
-		}
+export default class App extends Component {
+	state = {
+		colors: [],
+		offset: 0,
+		tooltipMessage: 'copy to clipboard',
 	}
 
 	componentDidMount = () => {
+		const img = new Image()
+		img.src = '../src/images/atitlan.jpg'
+
 		this.generateColors()
 
 		setTimeout(() => {
@@ -371,5 +370,3 @@ class App extends Component {
 		)
 	}
 }
-
-export default App
