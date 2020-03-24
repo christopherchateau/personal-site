@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://christopherchateau.github.io/personal-site/",
   "dependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.3.1",
     "normalize.css": "^8.0.1",
     "react": "^16.7.0",

@@ -7,6 +7,7 @@ class App extends Component {
 	constructor() {
 		super()
 		this.state = {
+			// loaded,
 			colors: [],
 			offset: 0,
 			tooltipMessage: 'copy to clipboard',
@@ -306,7 +307,6 @@ class App extends Component {
               cycling<br />
               snowboarding<br />
               coding<br />
-              occasionally other things<br />
             </h4>
 					</div>
 					<div className='spotify'>
