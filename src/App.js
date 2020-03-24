@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import bballImg from '../src/images/bball.png'
-import './App.css'
 import $ from 'jquery'
+import bballImg from '../src/images/bball.png'
+import atitlanImg from '../src/images/atitlan.jpg'
+
+import './App.css'
 
 export default class App extends Component {
 	state = {
@@ -11,9 +13,6 @@ export default class App extends Component {
 	}
 
 	componentDidMount = () => {
-		const img = new Image()
-		img.src = '../src/images/atitlan.jpg'
-
 		this.generateColors()
 
 		setTimeout(() => {
@@ -32,18 +31,17 @@ export default class App extends Component {
 
 	displayAtitlanBackground = () => {
 		$('.name-section').addClass('name-section-atitlan-bg')
+		$('.name-section-atitlan-bg').css({ 'background-image': `url(${atitlanImg})`})
 		$('.links').removeClass('hidden')
 	}
 
-	anchorLinks = () => {
+	anchorLinks = () =>
 		$(window).scrollTop() > window.innerHeight * 0.9 && window.innerWidth > 970
 			? $('.links').addClass('anchor-links')
 			: $('.links').removeClass('anchor-links')
-	}
 
-	updatePageOffset = () => {
+	updatePageOffset = () =>
 		this.setState({ offset: window.pageYOffset })
-	}
 
 	blinkingText = () => {
 		$('.chateaU').addClass('blink')
@@ -68,13 +66,16 @@ export default class App extends Component {
 
 	copyToClipboard = () => {
 		const copyText = this.refs.emailAddress
+
 		copyText.select()
 		document.execCommand('copy')
+
 		this.setState({ tooltipMessage: 'you did it!' })
 	}
 
 	generateColors() {
 		let colors = []
+
 		while (colors.length < 5) {
 			colors.push(this.generateRandomHexCode())
 		}
@@ -151,6 +152,20 @@ export default class App extends Component {
 					</article>
 					<div className='proj-wrapper'>
 						<a
+							href='https://github.com/christopherchateau/long-shot-league'
+							className='proj-long-shot-league proj'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<h4>
+								LONG SH
+								<img className='bball-img' src={bballImg} alt='O' />T LEAGUE
+							</h4>
+							<span className='proj-hover-text'>
+								reactJS - express - knex - postgreSQL
+							</span>
+						</a>
+						<a
 							href='https://github.com/christopherchateau/summit-register-FE'
 							className='proj-summit-register proj'
 							target='_blank'
@@ -171,20 +186,6 @@ export default class App extends Component {
 							<h4>MARVELOUS</h4>
 							<span className='proj-hover-text'>
 								reactJS - react router - redux
-							</span>
-						</a>
-						<a
-							href='https://github.com/christopherchateau/long-shot-league'
-							className='proj-long-shot-league proj'
-							target='_blank'
-							rel='noopener noreferrer'
-						>
-							<h4>
-								LONG SH
-								<img className='bball-img' src={bballImg} alt='O' />T LEAGUE
-							</h4>
-							<span className='proj-hover-text'>
-								reactJS - express - knex - postgreSQL
 							</span>
 						</a>
 						<a

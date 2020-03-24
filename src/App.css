@@ -29,7 +29,7 @@ body {
 
 .name-section-atitlan-bg {
   animation: bg 3s ease-out forwards;
-  background: url("../src/images/atitlan.jpg") center no-repeat;
+  background: center no-repeat;
   background-size: cover;
 }
 
@@ -713,9 +713,14 @@ body {
   .links {
     align-items: center;
     display: flex;
-    font-size: 2rem;
-    margin: 15px 0 0 0;
+    font-size: 3.5rem;
+    height: 4rem;
     justify-content: center;
+    margin: 1.5rem 0 0;
+  }
+
+  .fab {
+    margin: 0 1rem;
   }
 
   .proj-title,
