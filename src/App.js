@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import $ from 'jquery'
+
+import SocialIcon from '../src/components/SocialIcon.js'
 import bballImg from '../src/images/bball.png'
 import atitlanImg from '../src/images/atitlan.jpg'
 
@@ -111,27 +113,19 @@ export default class App extends Component {
 					}}
 				>
 					<nav className='links hidden'>
-						<a
+						<SocialIcon
 							href='https://github.com/christopherchateau'
-							target='_blank'
-							rel='noopener noreferrer'
-						>
-							<i className='fab slide fa-github' />
-						</a>
-						<a
+							iconClass='fa-github'
+						/>
+						<SocialIcon
 							href='https://linkedin.com/in/christopherchateau/'
-							target='_blank'
-							rel='noopener noreferrer'
-						>
-							<i className='fab slide fa-linkedin' />
-						</a>
-						<a
+							iconClass='fa-linkedin'
+						/>
+						<SocialIcon
 							href='https://open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA'
-							target='_blank'
-							rel='noopener noreferrer'
-						>
-							<i className='fab slide fa-spotify' />
-						</a>
+							iconClass='fa-spotify'
+						/>
+
 					</nav>
 					<div
 						className='name'

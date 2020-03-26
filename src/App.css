@@ -48,26 +48,6 @@ body {
   position: fixed;
 }
 
-.fas,
-.fa-github,
-.fa-linkedin,
-.fa-spotify {
-  background: transparent;
-  color: black;
-  margin: 0 5px;
-  padding: 8px;
-  transition: all 0.4s ease-in-out;
-}
-
-.fas:hover,
-.fa-github:hover,
-.fa-linkedin:hover,
-.fa-spotify:hover {
-  background: black;
-  color: rgb(211, 211, 211);
-  transition: all 0.4s ease-in-out;
-}
-
 .name {
   animation: in 3.5s ease-out forwards;
   margin: 0;
