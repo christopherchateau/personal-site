@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './SocialIcon.css'
+import './SocialLink.css'
 
 export default ({ href, iconClass }) =>
     <a
