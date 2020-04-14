@@ -211,6 +211,9 @@ body {
 		url('./images/court.jpg') bottom no-repeat;
 	color: white;
 	font-family: 'Roboto', sans-serif;
+	height: 16rem;
+	overflow: hidden;
+	position: relative;
 }
 
 .bball-img {
@@ -246,6 +249,7 @@ body {
 	background: url('./images/wood.jpg');
 	font-size: 5rem;
 	font-weight: bold;
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -395,7 +399,7 @@ body {
 }
 
 .playlist-1 {
-	background: url('images/playlist-1.png');
+	background: url('./images/playlist-1.png');
 	background-size: contain;
 }
 
