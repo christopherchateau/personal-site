@@ -132,15 +132,15 @@ export default class App extends Component {
 			>
 				<nav className='links hidden'>
 					<Link
-						href='https://github.com/christopherchateau'
+						href='github.com/christopherchateau'
 						linkClasses={['fab', 'slide', 'fa-github']}
 					/>
 					<Link
-						href='https://linkedin.com/in/christopherchateau/'
+						href='linkedin.com/in/christopherchateau/'
 						linkClasses={['fab', 'slide', 'fa-linkedin']}
 					/>
 					<Link
-						href='https://open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA'
+						href='open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA'
 						linkClasses={['fab', 'slide', 'fa-spotify']}
 					/>
 				</nav>
@@ -163,7 +163,7 @@ export default class App extends Component {
 				</article>
 				<div className='proj-wrapper'>
 					<Link
-						href='https://github.com/christopherchateau/long-shot-league'
+						href='github.com/christopherchateau/long-shot-league'
 						linkClasses={['proj-long-shot-league', 'proj']}
 					>
 						<h4>
@@ -176,7 +176,7 @@ export default class App extends Component {
 						</span>
 					</Link>
 					<Link
-						href='https://github.com/christopherchateau/summit-register-FE'
+						href='github.com/christopherchateau/summit-register-FE'
 						linkClasses={['proj-summit-register', 'proj']}
 					>
 						<h4>summit register</h4>
@@ -186,7 +186,7 @@ export default class App extends Component {
 						</span>
 					</Link>
 					<Link
-						href='https://github.com/christopherchateau/marvelous'
+						href='github.com/christopherchateau/marvelous'
 						linkClasses={['proj-marvelous', 'proj']}
 					>
 						<h4>MARVELOUS</h4>
@@ -195,7 +195,7 @@ export default class App extends Component {
 						</span>
 					</Link>
 					<Link
-						href='https://github.com/christopherchateau/BuildYourOwnBackend'
+						href='github.com/christopherchateau/BuildYourOwnBackend'
 						linkClasses={['proj-byobe', 'proj']}
 					>
 						<p>Cerebral Brewing API</p>
@@ -204,7 +204,7 @@ export default class App extends Component {
 						</span>
 					</Link>
 					<Link
-						href='https://github.com/christopherchateau/movie-tracker'
+						href='github.com/christopherchateau/movie-tracker'
 						linkClasses={['proj-cc', 'proj']}
 					>
 						<h4 className='cc-title'>coenCollection</h4>
@@ -213,7 +213,7 @@ export default class App extends Component {
 						</span>
 					</Link>
 					<Link
-						href='https://github.com/christopherchateau/palette-picker'
+						href='github.com/christopherchateau/palette-picker'
 						linkClasses={['proj-pp']}
 					>
 						<div className='proj-pp-colors-wrapper proj'>
@@ -254,7 +254,7 @@ export default class App extends Component {
 						</div>
 					</Link>
 					<Link
-						href='https://github.com/christopherchateau/headcount2.0'
+						href='github.com/christopherchateau/headcount2.0'
 						linkClasses={['proj-headcount', 'proj']}
 					>
 						<h4>HEADCOUNT</h4>
@@ -264,7 +264,7 @@ export default class App extends Component {
 						</span>
 					</Link>
 					<Link
-						href='https://github.com/christopherchateau/SWAPI-Box'
+						href='github.com/christopherchateau/SWAPI-Box'
 						linkClasses={['proj-swapi-box', 'proj']}
 					>
 						<h4>SWAPi-Box $</h4>
@@ -273,7 +273,7 @@ export default class App extends Component {
 						</span>
 					</Link>
 					<Link
-						href='https://github.com/christopherchateau/space-bunny'
+						href='github.com/christopherchateau/space-bunny'
 						linkClasses={['proj-space-bunny', 'proj']}
 					>
 						<h4>SPACE BUNNY</h4>
@@ -287,12 +287,12 @@ export default class App extends Component {
 				</article>
 				<div className='challenges-wrapper'>
 					<Link
-						href='https://exercism.io/profiles/christopherchateau'
+						href='exercism.io/profiles/christopherchateau'
 						linkClasses={['challenge-exercism', 'challenge']}
 					/>
 
 					<Link
-						href='https://www.codewars.com/users/christopherchateau'
+						href='www.codewars.com/users/christopherchateau'
 						linkClasses={['challenge-cw', 'challenge']}
 					>
 						<div className='challenge-cw-interior'>
@@ -321,27 +321,27 @@ export default class App extends Component {
 					<header>currently in rotation</header>
 					<section className='spotify-playlists'>
 						<Link
-							href='https://open.spotify.com/playlist/37i9dQZF1DXbrNmKPI2OlG'
+							href='open.spotify.com/playlist/37i9dQZF1DXbrNmKPI2OlG'
 							linkClasses={['playlist', 'playlist-1']}
 						/>
 						<Link
-							href='https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS'
+							href='open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS'
 							linkClasses={['playlist', 'playlist-2']}
 						/>
 						<Link
-							href='https://open.spotify.com/playlist/37i9dQZF1DX0SM0LYsmbMT'
+							href='open.spotify.com/playlist/37i9dQZF1DX0SM0LYsmbMT'
 							linkClasses={['playlist', 'playlist-3']}
 						/>
 						<Link
-							href='https://open.spotify.com/album/6oRuinkJdTge4hpTuClEF8'
+							href='open.spotify.com/album/6oRuinkJdTge4hpTuClEF8'
 							linkClasses={['playlist', 'playlist-4']}
 						/>
 						<Link
-							href='https://open.spotify.com/album/4anxEzh8xEKSPXKHGWiFue'
+							href='open.spotify.com/album/4anxEzh8xEKSPXKHGWiFue'
 							linkClasses={['playlist', 'playlist-5']}
 						/>
 						<Link
-							href='https://open.spotify.com/album/0YF8PfcGbsKg5IaFyPnlyY'
+							href='open.spotify.com/album/0YF8PfcGbsKg5IaFyPnlyY'
 							linkClasses={['playlist', 'playlist-6']}
 						/>
 					</section>

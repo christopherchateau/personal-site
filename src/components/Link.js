@@ -4,7 +4,7 @@ import './Link.css'
 
 export default ({ href, linkClasses = [], children }) => (
 	<a
-		href={href}
+		href={`https://${href}`}
 		target='_blank'
 		rel='noopener noreferrer'
 		className={linkClasses.join(' ')}
