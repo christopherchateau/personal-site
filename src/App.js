@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import $ from 'jquery'
 
-import SocialLink from '../src/components/SocialLink.js'
+import Link from './components/Link.js'
 import bballImg from '../src/images/bball.png'
 import atitlanImg from '../src/images/atitlan.jpg'
 
@@ -111,15 +111,15 @@ export default class App extends Component {
                 }}
             >
                 <nav className='links hidden'>
-                    <SocialLink
+                    <Link
                         href='https://github.com/christopherchateau'
                         iconClass='fa-github'
                     />
-                    <SocialLink
+                    <Link
                         href='https://linkedin.com/in/christopherchateau/'
                         iconClass='fa-linkedin'
                     />
-                    <SocialLink
+                    <Link
                         href='https://open.spotify.com/user/22sqnzcvx3svvhpsxhlzodhji?si=qtjIs9klT-erRFdTIQR4TA'
                         iconClass='fa-spotify'
                     />
