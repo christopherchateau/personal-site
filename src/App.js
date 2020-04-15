@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import $ from 'jquery'
 
 import Link from './components/Link.js'
@@ -12,24 +12,26 @@ const App = () => {
 	const [paletteColors, setPaletteColors] = useState([])
 	const [tooltipMessage, setTooltipMessage] = useState('copy to clipboard')
 
-	componentDidMount = () => {
-		this.generateColors()
+	const emailRef = useRef()
+
+	useEffect(() => {
+		generateColors()
 
 		setTimeout(() => {
-			this.displayAtitlanBackground()
+			displayAtitlanBackground()
 		}, 2000)
 
 		setTimeout(() => {
-			this.blinkingText()
+			blinkingText()
 		}, 6000)
 
 		$(window).scroll(() => {
-			this.anchorLinks()
-			this.updatePageOffset()
+			anchorLinks()
+			updatePageOffset()
 		})
-	}
+	}, [])
 
-	displayAtitlanBackground = () => {
+	const displayAtitlanBackground = () => {
 		$('.name-section').addClass('name-section-atitlan-bg')
 		$('.name-section-atitlan-bg').css({
 			'background-image': `url(${atitlanImg})`
@@ -37,37 +39,37 @@ const App = () => {
 		$('.links').removeClass('hidden')
 	}
 
-	anchorLinks = () =>
+	const anchorLinks = () =>
 		$(window).scrollTop() > window.innerHeight * 0.9 &&
 		window.innerWidth > 970
 			? $('.links').addClass('anchor-links')
 			: $('.links').removeClass('anchor-links')
 
-	updatePageOffset = () => setOffset(window.pageYOffset)
+	const updatePageOffset = () => setOffset(window.pageYOffset)
 
-	blinkingText = () => {
+	const blinkingText = () => {
 		$('.chateaU').addClass('blink')
 
 		setTimeout(() => {
 			$('.chateaU').removeClass('blink')
 		}, 900)
 		setTimeout(() => {
-			this.blinkingText()
+			blinkingText()
 		}, 1600)
 	}
 
-	handleEmailClick = () => {
+	const handleEmailClick = () => {
 		$('.e-mail-wrapper, .e-mail').addClass('e-mail-clicked')
-		this.copyToClipboard()
+		copyToClipboard()
 	}
 
-	handleContactMouseLeave = () => {
+	const handleContactMouseLeave = () => {
 		$('.e-mail-wrapper, .e-mail').removeClass('e-mail-clicked')
 		setTooltipMessage('copy to clipboard')
 	}
 
-	copyToClipboard = () => {
-		const copyText = this.refs.emailAddress
+	const copyToClipboard = () => {
+		const copyText = emailRef.current
 
 		copyText.select()
 		document.execCommand('copy')
@@ -75,35 +77,52 @@ const App = () => {
 		setTooltipMessage('you did it!')
 	}
 
-	generateColors = () => {
+	const generateColors = () => {
 		let colors = []
 
 		while (colors.length < 5) {
-			colors.push(this.generateRandomHexCode())
+			colors.push(generateRandomHexCode())
 		}
 		setPaletteColors(colors)
 
 		setTimeout(() => {
-			this.generateColors()
+			generateColors()
 		}, 4000)
 	}
 
-	generateRandomHexCode = () => {
+	const generateRandomHexCode = () => {
 		let hexCode = '#'
 
 		while (hexCode.length < 7) {
-			hexCode += this.generateRandomHexValue()
+			hexCode += generateRandomHexValue()
 		}
 		return hexCode
 	}
 
-	generateRandomHexValue = () => {
-		const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f']
+	const generateRandomHexValue = () => {
+		const values = [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			'a',
+			'b',
+			'c',
+			'd',
+			'e',
+			'f'
+		]
 		const randomIndex = Math.floor(Math.random() * 16)
 		return values[randomIndex]
 	}
 
-	render = () => (
+	return (
 		<div className='App'>
 			<section
 				className='name-section'
@@ -332,17 +351,15 @@ const App = () => {
 				</div>
 				<div
 					className='contact'
-					onMouseLeave={this.handleContactMouseLeave}
-					onClick={this.handleEmailClick}
+					onMouseLeave={handleContactMouseLeave}
+					onClick={handleEmailClick}
 				>
-					<span className='tooltip-text'>
-						{tooltipMessage}
-					</span>
+					<span className='tooltip-text'>{tooltipMessage}</span>
 					<div className='e-mail-wrapper'>
 						<i className='fas fa-envelope' />
 						<input
 							className='e-mail'
-							ref='emailAddress'
+							ref={emailRef}
 							type='text'
 							value='christopherchateau@gmail.com'
 						/>
@@ -352,6 +369,5 @@ const App = () => {
 		</div>
 	)
 }
-
 
 export default App
