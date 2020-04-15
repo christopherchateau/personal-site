@@ -100,26 +100,23 @@ const App = () => {
 	}
 
 	const generateRandomHexValue = () => {
-		const values = [
-			0,
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			'a',
-			'b',
-			'c',
-			'd',
-			'e',
-			'f'
-		]
+		const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f']
 		const randomIndex = Math.floor(Math.random() * 16)
 		return values[randomIndex]
+	}
+
+	const generatePalette = () => {
+		const palette = []
+
+		for (let i = 1; i <= 5; i++) {
+			palette.push(
+				<section
+					className={`proj-pp-color-${i} color`}
+					style={{ background: `${paletteColors[i - 1]}` }}
+				/>
+			)
+		}
+		return palette
 	}
 
 	return (
@@ -224,36 +221,7 @@ const App = () => {
 							<span className='proj-hover-text'>
 								jQuery - express - knex - postgreSQL
 							</span>
-							<section
-								className='proj-pp-color-1 color'
-								style={{
-									background: `${paletteColors[0]}`
-								}}
-							/>
-							<section
-								className='proj-pp-color-2 color'
-								style={{
-									background: `${paletteColors[1]}`
-								}}
-							/>
-							<section
-								className='proj-pp-color-3 color'
-								style={{
-									background: `${paletteColors[2]}`
-								}}
-							/>
-							<section
-								className='proj-pp-color-4 color'
-								style={{
-									background: `${paletteColors[3]}`
-								}}
-							/>
-							<section
-								className='proj-pp-color-5 color'
-								style={{
-									background: `${paletteColors[4]}`
-								}}
-							/>
+							{generatePalette()}
 						</div>
 					</Link>
 					<Link
