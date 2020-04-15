@@ -109,10 +109,13 @@ const App = () => {
 		const palette = []
 
 		for (let i = 1; i <= 5; i++) {
+			const color = paletteColors[i - 1]
+
 			palette.push(
 				<section
 					className={`proj-pp-color-${i} color`}
-					style={{ background: `${paletteColors[i - 1]}` }}
+					style={{ background: color }}
+					key={color}
 				/>
 			)
 		}
