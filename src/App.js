@@ -100,24 +100,7 @@ export default class App extends Component {
 	}
 
 	generateRandomHexValue() {
-		const values = [
-			0,
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			'a',
-			'b',
-			'c',
-			'd',
-			'e',
-			'f'
-		]
+		const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f']
 		const randomIndex = Math.floor(Math.random() * 16)
 		return values[randomIndex]
 	}
@@ -166,6 +149,9 @@ export default class App extends Component {
 						href='github.com/christopherchateau/long-shot-league'
 						linkClasses={['proj-long-shot-league', 'proj']}
 					>
+						<p className='proj-long-shot-league-update'>
+							updated in 2020
+						</p>
 						<h4>
 							LONG SH
 							<img className='bball-img' src={bballImg} alt='O' />

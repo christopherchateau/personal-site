@@ -216,6 +216,30 @@ body {
 	position: relative;
 }
 
+.proj-long-shot-league-update {
+	border: 1px solid white;
+	color: white;
+	font-size: 18px;
+	margin: 0;
+	opacity: 0.2;
+	padding: 5px 15px;
+	position: absolute;
+	right: 20px;
+	top: -50px;
+	transition: all 0.9s ease-in-out;
+}
+
+.proj-long-shot-league:hover .proj-long-shot-league-update {
+	letter-spacing: 1px;
+	opacity: 1;
+	right: 15px;
+	top: 10px;
+}
+
+.trophy-img {
+	height: 20px;
+}
+
 .bball-img {
 	height: 60px;
 	position: relative;
@@ -719,6 +743,10 @@ body {
 
 	.proj-long-shot-league {
 		font-size: 1.5rem;
+	}
+
+	.proj-long-shot-league-update {
+		display: none;
 	}
 
 	.proj-summit-register {
