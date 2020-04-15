@@ -425,26 +425,32 @@ body {
 
 .playlist-1 {
 	background: url('images/playlist-1.png');
+	background-size: contain;
 }
 
 .playlist-2 {
 	background: url('images/playlist-2.png');
+	background-size: contain;
 }
 
 .playlist-3 {
 	background: url('images/playlist-3.png');
+	background-size: contain;
 }
 
 .playlist-4 {
 	background: url('images/playlist-4.png');
+	background-size: contain;
 }
 
 .playlist-5 {
 	background: url('images/playlist-5.jpg');
+	background-size: contain;
 }
 
 .playlist-6 {
 	background: url('images/playlist-6.jpg');
+	background-size: contain;
 }
 
 .contact {
