@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import $ from 'jquery'
 
 import Link from './components/Link.js'
@@ -7,12 +7,10 @@ import atitlanImg from '../src/images/atitlan.jpg'
 
 import './App.css'
 
-export default class App extends Component {
-	state = {
-		colors: [],
-		offset: 0,
-		tooltipMessage: 'copy to clipboard'
-	}
+const App = () => {
+	const [offset, setOffset] = useState(0)
+	const [paletteColors, setPaletteColors] = useState([])
+	const [tooltipMessage, setTooltipMessage] = useState('copy to clipboard')
 
 	componentDidMount = () => {
 		this.generateColors()
@@ -45,7 +43,7 @@ export default class App extends Component {
 			? $('.links').addClass('anchor-links')
 			: $('.links').removeClass('anchor-links')
 
-	updatePageOffset = () => this.setState({ offset: window.pageYOffset })
+	updatePageOffset = () => setOffset(window.pageYOffset)
 
 	blinkingText = () => {
 		$('.chateaU').addClass('blink')
@@ -65,7 +63,7 @@ export default class App extends Component {
 
 	handleContactMouseLeave = () => {
 		$('.e-mail-wrapper, .e-mail').removeClass('e-mail-clicked')
-		this.setState({ tooltipMessage: 'copy to clipboard' })
+		setTooltipMessage('copy to clipboard')
 	}
 
 	copyToClipboard = () => {
@@ -74,23 +72,23 @@ export default class App extends Component {
 		copyText.select()
 		document.execCommand('copy')
 
-		this.setState({ tooltipMessage: 'you did it!' })
+		setTooltipMessage('you did it!')
 	}
 
-	generateColors() {
+	generateColors = () => {
 		let colors = []
 
 		while (colors.length < 5) {
 			colors.push(this.generateRandomHexCode())
 		}
-		this.setState({ colors })
+		setPaletteColors(colors)
 
 		setTimeout(() => {
 			this.generateColors()
 		}, 4000)
 	}
 
-	generateRandomHexCode() {
+	generateRandomHexCode = () => {
 		let hexCode = '#'
 
 		while (hexCode.length < 7) {
@@ -99,7 +97,7 @@ export default class App extends Component {
 		return hexCode
 	}
 
-	generateRandomHexValue() {
+	generateRandomHexValue = () => {
 		const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f']
 		const randomIndex = Math.floor(Math.random() * 16)
 		return values[randomIndex]
@@ -110,7 +108,7 @@ export default class App extends Component {
 			<section
 				className='name-section'
 				style={{
-					backgroundPositionY: this.state.offset / 1.8
+					backgroundPositionY: offset / 1.8
 				}}
 			>
 				<nav className='links hidden'>
@@ -130,8 +128,8 @@ export default class App extends Component {
 				<div
 					className='name'
 					style={{
-						bottom: this.state.offset / 3,
-						opacity: 0.6 - this.state.offset * 0.001
+						bottom: offset / 3,
+						opacity: 0.6 - offset * 0.001
 					}}
 				>
 					<h1>chris</h1>
@@ -210,31 +208,31 @@ export default class App extends Component {
 							<section
 								className='proj-pp-color-1 color'
 								style={{
-									background: `${this.state.colors[0]}`
+									background: `${paletteColors[0]}`
 								}}
 							/>
 							<section
 								className='proj-pp-color-2 color'
 								style={{
-									background: `${this.state.colors[1]}`
+									background: `${paletteColors[1]}`
 								}}
 							/>
 							<section
 								className='proj-pp-color-3 color'
 								style={{
-									background: `${this.state.colors[2]}`
+									background: `${paletteColors[2]}`
 								}}
 							/>
 							<section
 								className='proj-pp-color-4 color'
 								style={{
-									background: `${this.state.colors[3]}`
+									background: `${paletteColors[3]}`
 								}}
 							/>
 							<section
 								className='proj-pp-color-5 color'
 								style={{
-									background: `${this.state.colors[4]}`
+									background: `${paletteColors[4]}`
 								}}
 							/>
 						</div>
@@ -338,7 +336,7 @@ export default class App extends Component {
 					onClick={this.handleEmailClick}
 				>
 					<span className='tooltip-text'>
-						{this.state.tooltipMessage}
+						{tooltipMessage}
 					</span>
 					<div className='e-mail-wrapper'>
 						<i className='fas fa-envelope' />
@@ -354,3 +352,6 @@ export default class App extends Component {
 		</div>
 	)
 }
+
+
+export default App
