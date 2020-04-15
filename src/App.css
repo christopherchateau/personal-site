@@ -388,6 +388,7 @@ body {
 }
 
 .playlist {
+	background-size: contain;
 	cursor: pointer;
 	transition: all 0.5s ease-in-out;
 }
@@ -399,33 +400,27 @@ body {
 }
 
 .playlist-1 {
-	background: url('./images/playlist-1.png');
-	background-size: contain;
+	background: url('images/playlist-1.png');
 }
 
 .playlist-2 {
 	background: url('images/playlist-2.png');
-	background-size: contain;
 }
 
 .playlist-3 {
 	background: url('images/playlist-3.png');
-	background-size: contain;
 }
 
 .playlist-4 {
 	background: url('images/playlist-4.png');
-	background-size: contain;
 }
 
 .playlist-5 {
 	background: url('images/playlist-5.jpg');
-	background-size: contain;
 }
 
 .playlist-6 {
 	background: url('images/playlist-6.jpg');
-	background-size: contain;
 }
 
 .contact {
@@ -456,7 +451,6 @@ body {
 	border: none;
 	cursor: pointer;
 	font-size: 1.4rem;
-
 	outline: none;
 	width: 320px;
 }
