@@ -124,6 +124,8 @@ body {
 .challenge:hover {
 	cursor: pointer;
 	letter-spacing: 5px;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 	text-align: center;
 	transition: all 0.5s ease-in-out;
 	transform: scale(1.15);

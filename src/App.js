@@ -33,15 +33,12 @@ const App = () => {
 
 	const displayAtitlanBackground = () => {
 		$('.name-section').addClass('name-section-atitlan-bg')
-		$('.name-section-atitlan-bg').css({
-			'background-image': `url(${atitlanImg})`
-		})
+		$('.name-section-atitlan-bg').css({'background-image': `url(${atitlanImg})`})
 		$('.links').removeClass('hidden')
 	}
 
 	const anchorLinks = () =>
-		$(window).scrollTop() > window.innerHeight * 0.9 &&
-		window.innerWidth > 970
+		$(window).scrollTop() > window.innerHeight * 0.9 && window.innerWidth > 970
 			? $('.links').addClass('anchor-links')
 			: $('.links').removeClass('anchor-links')
 
@@ -110,12 +107,11 @@ const App = () => {
 
 		for (let i = 1; i <= 5; i++) {
 			const color = paletteColors[i - 1]
-
 			palette.push(
 				<section
 					className={`proj-pp-color-${i} color`}
 					style={{ background: color }}
-					key={color}
+					key={color || i}
 				/>
 			)
 		}
